@@ -1,0 +1,884 @@
+match_id,comp_id,comp_name,match_format,season,match_date,competition_type,has_delivery_records,status,reason
+13511,1331,England in West Indies T20I Series 2022,T20I,2022,2022-01-22,T20I,True,included,included
+13512,1331,England in West Indies T20I Series 2022,T20I,2022,2022-01-23,T20I,True,included,included
+13513,1331,England in West Indies T20I Series 2022,T20I,2022,2022-01-26,T20I,True,included,included
+13514,1331,England in West Indies T20I Series 2022,T20I,2022,2022-01-29,T20I,True,included,included
+13515,1331,England in West Indies T20I Series 2022,T20I,2022,2022-01-30,T20I,True,included,included
+13522,1335,West Indies in India T20I Series 2022,T20I,2022,2022-02-16,T20I,True,included,included
+13523,1335,West Indies in India T20I Series 2022,T20I,2022,2022-02-18,T20I,True,included,included
+13524,1335,West Indies in India T20I Series 2022,T20I,2022,2022-02-20,T20I,True,included,included
+13612,1345,Sri Lanka in Australia T20I Series 2022,T20I,2022,2022-02-11,T20I,True,included,included
+13613,1345,Sri Lanka in Australia T20I Series 2022,T20I,2022,2022-02-13,T20I,True,included,included
+13614,1345,Sri Lanka in Australia T20I Series 2022,T20I,2022,2022-02-15,T20I,True,included,included
+13615,1345,Sri Lanka in Australia T20I Series 2022,T20I,2022,2022-02-18,T20I,True,included,included
+13616,1345,Sri Lanka in Australia T20I Series 2022,T20I,2022,2022-02-20,T20I,True,included,included
+14094,1358,IPL 2022,T20,2022,2022-03-26,IPL,True,included,included
+14095,1358,IPL 2022,T20,2022,2022-03-27,IPL,True,included,included
+14096,1358,IPL 2022,T20,2022,2022-03-27,IPL,True,included,included
+14097,1358,IPL 2022,T20,2022,2022-03-28,IPL,True,included,included
+14098,1358,IPL 2022,T20,2022,2022-03-29,IPL,True,included,included
+14099,1358,IPL 2022,T20,2022,2022-03-30,IPL,True,included,included
+14100,1358,IPL 2022,T20,2022,2022-03-31,IPL,True,included,included
+14101,1358,IPL 2022,T20,2022,2022-04-01,IPL,True,included,included
+14102,1358,IPL 2022,T20,2022,2022-04-02,IPL,True,included,included
+14103,1358,IPL 2022,T20,2022,2022-04-02,IPL,True,included,included
+14104,1358,IPL 2022,T20,2022,2022-04-03,IPL,True,included,included
+14105,1358,IPL 2022,T20,2022,2022-04-04,IPL,True,included,included
+14106,1358,IPL 2022,T20,2022,2022-04-05,IPL,True,included,included
+14107,1358,IPL 2022,T20,2022,2022-04-06,IPL,True,included,included
+14108,1358,IPL 2022,T20,2022,2022-04-07,IPL,True,included,included
+14109,1358,IPL 2022,T20,2022,2022-04-08,IPL,True,included,included
+14110,1358,IPL 2022,T20,2022,2022-04-09,IPL,True,included,included
+14111,1358,IPL 2022,T20,2022,2022-04-09,IPL,True,included,included
+14112,1358,IPL 2022,T20,2022,2022-04-10,IPL,True,included,included
+14113,1358,IPL 2022,T20,2022,2022-04-10,IPL,True,included,included
+14114,1358,IPL 2022,T20,2022,2022-04-11,IPL,True,included,included
+14115,1358,IPL 2022,T20,2022,2022-04-12,IPL,True,included,included
+14116,1358,IPL 2022,T20,2022,2022-04-13,IPL,True,included,included
+14117,1358,IPL 2022,T20,2022,2022-04-14,IPL,True,included,included
+14118,1358,IPL 2022,T20,2022,2022-04-15,IPL,True,included,included
+14119,1358,IPL 2022,T20,2022,2022-04-16,IPL,True,included,included
+14120,1358,IPL 2022,T20,2022,2022-04-16,IPL,True,included,included
+14121,1358,IPL 2022,T20,2022,2022-04-17,IPL,True,included,included
+14122,1358,IPL 2022,T20,2022,2022-04-17,IPL,True,included,included
+14123,1358,IPL 2022,T20,2022,2022-04-18,IPL,True,included,included
+14124,1358,IPL 2022,T20,2022,2022-04-19,IPL,True,included,included
+14125,1358,IPL 2022,T20,2022,2022-04-20,IPL,True,included,included
+14126,1358,IPL 2022,T20,2022,2022-04-21,IPL,True,included,included
+14127,1358,IPL 2022,T20,2022,2022-04-22,IPL,True,included,included
+14128,1358,IPL 2022,T20,2022,2022-04-23,IPL,True,included,included
+14129,1358,IPL 2022,T20,2022,2022-04-23,IPL,True,included,included
+14130,1358,IPL 2022,T20,2022,2022-04-24,IPL,True,included,included
+14131,1358,IPL 2022,T20,2022,2022-04-25,IPL,True,included,included
+14132,1358,IPL 2022,T20,2022,2022-04-26,IPL,True,included,included
+14133,1358,IPL 2022,T20,2022,2022-04-27,IPL,True,included,included
+14134,1358,IPL 2022,T20,2022,2022-04-28,IPL,True,included,included
+14135,1358,IPL 2022,T20,2022,2022-04-29,IPL,True,included,included
+14136,1358,IPL 2022,T20,2022,2022-04-30,IPL,True,included,included
+14137,1358,IPL 2022,T20,2022,2022-04-30,IPL,True,included,included
+14139,1358,IPL 2022,T20,2022,2022-05-01,IPL,True,included,included
+14140,1358,IPL 2022,T20,2022,2022-05-01,IPL,True,included,included
+14141,1358,IPL 2022,T20,2022,2022-05-02,IPL,True,included,included
+14142,1358,IPL 2022,T20,2022,2022-05-03,IPL,True,included,included
+14143,1358,IPL 2022,T20,2022,2022-05-04,IPL,True,included,included
+14144,1358,IPL 2022,T20,2022,2022-05-05,IPL,True,included,included
+14145,1358,IPL 2022,T20,2022,2022-05-06,IPL,True,included,included
+14146,1358,IPL 2022,T20,2022,2022-05-07,IPL,True,included,included
+14147,1358,IPL 2022,T20,2022,2022-05-07,IPL,True,included,included
+14148,1358,IPL 2022,T20,2022,2022-05-08,IPL,True,included,included
+14149,1358,IPL 2022,T20,2022,2022-05-08,IPL,True,included,included
+14150,1358,IPL 2022,T20,2022,2022-05-09,IPL,True,included,included
+14151,1358,IPL 2022,T20,2022,2022-05-10,IPL,True,included,included
+14152,1358,IPL 2022,T20,2022,2022-05-11,IPL,True,included,included
+14153,1358,IPL 2022,T20,2022,2022-05-12,IPL,True,included,included
+14154,1358,IPL 2022,T20,2022,2022-05-13,IPL,True,included,included
+14155,1358,IPL 2022,T20,2022,2022-05-14,IPL,True,included,included
+14156,1358,IPL 2022,T20,2022,2022-05-15,IPL,True,included,included
+14157,1358,IPL 2022,T20,2022,2022-05-15,IPL,True,included,included
+14158,1358,IPL 2022,T20,2022,2022-05-16,IPL,True,included,included
+14159,1358,IPL 2022,T20,2022,2022-05-17,IPL,True,included,included
+14160,1358,IPL 2022,T20,2022,2022-05-18,IPL,True,included,included
+14161,1358,IPL 2022,T20,2022,2022-05-19,IPL,True,included,included
+14162,1358,IPL 2022,T20,2022,2022-05-20,IPL,True,included,included
+14163,1358,IPL 2022,T20,2022,2022-05-21,IPL,True,included,included
+14164,1358,IPL 2022,T20,2022,2022-05-22,IPL,True,included,included
+15187,1358,IPL 2022,T20,2022,2022-05-24,IPL,True,included,included
+15188,1358,IPL 2022,T20,2022,2022-05-25,IPL,True,included,included
+15189,1358,IPL 2022,T20,2022,2022-05-27,IPL,True,included,included
+15190,1358,IPL 2022,T20,2022,2022-05-29,IPL,True,included,included
+15406,1439,South Africa in India T20I Series 2022,T20I,2022,2022-06-09,T20I,True,included,included
+15407,1439,South Africa in India T20I Series 2022,T20I,2022,2022-06-12,T20I,True,included,included
+15408,1439,South Africa in India T20I Series 2022,T20I,2022,2022-06-14,T20I,True,included,included
+15409,1439,South Africa in India T20I Series 2022,T20I,2022,2022-06-17,T20I,True,included,included
+15410,1439,South Africa in India T20I Series 2022,T20I,2022,2022-06-19,T20I,True,included,included
+15458,1435,Australia in Sri Lanka T20I Series 2022,T20I,2022,2022-06-07,T20I,True,included,included
+15459,1435,Australia in Sri Lanka T20I Series 2022,T20I,2022,2022-06-08,T20I,True,included,included
+15460,1435,Australia in Sri Lanka T20I Series 2022,T20I,2022,2022-06-11,T20I,True,included,included
+15546,1452,Bangladesh in West Indies T20I Series 2022,T20I,2022,2022-07-02,T20I,True,included,included
+15547,1452,Bangladesh in West Indies T20I Series 2022,T20I,2022,2022-07-03,T20I,True,included,included
+15548,1452,Bangladesh in West Indies T20I Series 2022,T20I,2022,2022-07-07,T20I,True,included,included
+15609,1458,Afghanistan in Zimbabwe T20I Series 2022,T20I,2022,2022-06-11,T20I,True,included,included
+15610,1458,Afghanistan in Zimbabwe T20I Series 2022,T20I,2022,2022-06-12,T20I,True,included,included
+15611,1458,Afghanistan in Zimbabwe T20I Series 2022,T20I,2022,2022-06-14,T20I,True,included,included
+15795,1474,India in Ireland T20I Series 2022,T20I,2022,2022-06-26,T20I,True,included,included
+15796,1474,India in Ireland T20I Series 2022,T20I,2022,2022-06-28,T20I,True,included,included
+16040,1494,India in England T20I Series 2022,T20I,2022,2022-07-07,T20I,True,included,included
+16041,1494,India in England T20I Series 2022,T20I,2022,2022-07-09,T20I,True,included,included
+16042,1494,India in England T20I Series 2022,T20I,2022,2022-07-10,T20I,True,included,included
+16062,1499,India in West Indies T20I Series 2022,T20I,2022,2022-07-29,T20I,True,included,included
+16063,1499,India in West Indies T20I Series 2022,T20I,2022,2022-08-01,T20I,True,included,included
+16064,1499,India in West Indies T20I Series 2022,T20I,2022,2022-08-02,T20I,True,included,included
+16065,1499,India in West Indies T20I Series 2022,T20I,2022,2022-08-06,T20I,True,included,included
+16066,1499,India in West Indies T20I Series 2022,T20I,2022,2022-08-07,T20I,True,included,included
+16258,1512,New Zealand in Ireland T20I Series 2022,T20I,2022,2022-07-18,T20I,True,included,included
+16259,1512,New Zealand in Ireland T20I Series 2022,T20I,2022,2022-07-20,T20I,True,included,included
+16260,1512,New Zealand in Ireland T20I Series 2022,T20I,2022,2022-07-22,T20I,True,included,included
+16315,1517,South Africa in England T20I Series 2022,T20I,2022,2022-07-27,T20I,True,included,included
+16316,1517,South Africa in England T20I Series 2022,T20I,2022,2022-07-28,T20I,True,included,included
+16317,1517,South Africa in England T20I Series 2022,T20I,2022,2022-07-31,T20I,True,included,included
+16424,1523,Bangladesh in Zimbabwe T20I Series 2022,T20I,2022,2022-07-30,T20I,True,included,included
+16425,1523,Bangladesh in Zimbabwe T20I Series 2022,T20I,2022,2022-07-31,T20I,True,included,included
+16426,1523,Bangladesh in Zimbabwe T20I Series 2022,T20I,2022,2022-08-02,T20I,True,included,included
+16646,1531,South Africa vs Ireland T20I Series 2022,T20I,2022,2022-08-03,T20I,True,included,included
+16647,1531,South Africa vs Ireland T20I Series 2022,T20I,2022,2022-08-05,T20I,True,included,included
+16653,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-08-27,T20I,True,included,included
+16654,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-08-28,T20I,True,included,included
+16655,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-08-30,T20I,True,included,included
+16656,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-08-31,T20I,True,included,included
+16657,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-01,T20I,True,included,included
+16658,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-02,T20I,True,included,included
+16659,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-03,T20I,True,included,included
+16660,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-04,T20I,True,included,included
+16661,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-06,T20I,True,included,included
+16662,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-07,T20I,True,included,included
+16663,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-08,T20I,True,included,included
+16664,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-09,T20I,True,included,included
+16665,1533,Mens Twenty20 Asia Cup 2022,T20I,2022,2022-09-11,T20I,True,included,included
+16666,1534,New Zealand in Netherlands T20I Series 2022,T20I,2022,2022-08-04,T20I,True,included,included
+16667,1534,New Zealand in Netherlands T20I Series 2022,T20I,2022,2022-08-05,T20I,True,included,included
+16683,1537,New Zealand in West Indies T20I Series 2022,T20I,2022,2022-08-11,T20I,True,included,included
+16684,1537,New Zealand in West Indies T20I Series 2022,T20I,2022,2022-08-13,T20I,True,included,included
+16685,1537,New Zealand in West Indies T20I Series 2022,T20I,2022,2022-08-15,T20I,True,included,included
+16750,1543,Afghanistan in Ireland T20I Series 2022,T20I,2022,2022-08-09,T20I,True,included,included
+16751,1543,Afghanistan in Ireland T20I Series 2022,T20I,2022,2022-08-11,T20I,True,included,included
+16752,1543,Afghanistan in Ireland T20I Series 2022,T20I,2022,2022-08-12,T20I,True,included,included
+16753,1543,Afghanistan in Ireland T20I Series 2022,T20I,2022,2022-08-15,T20I,True,included,included
+16754,1543,Afghanistan in Ireland T20I Series 2022,T20I,2022,2022-08-17,T20I,True,included,included
+16862,1551,Asia Cup T20 Qualifiers 2022,T20I,2022,2022-08-20,T20I,True,included,included
+16863,1551,Asia Cup T20 Qualifiers 2022,T20I,2022,2022-08-21,T20I,True,included,included
+16864,1551,Asia Cup T20 Qualifiers 2022,T20I,2022,2022-08-22,T20I,True,included,included
+16865,1551,Asia Cup T20 Qualifiers 2022,T20I,2022,2022-08-23,T20I,True,included,included
+16866,1551,Asia Cup T20 Qualifiers 2022,T20I,2022,2022-08-24,T20I,True,included,included
+16867,1551,Asia Cup T20 Qualifiers 2022,T20I,2022,2022-08-24,T20I,True,included,included
+17394,1584,Australia in India T20I Series 2022,T20I,2022,2022-09-20,T20I,True,included,included
+17395,1584,Australia in India T20I Series 2022,T20I,2022,2022-09-23,T20I,True,included,included
+17396,1584,Australia in India T20I Series 2022,T20I,2022,2022-09-25,T20I,True,included,included
+17553,1595,England in Pakistan T20I Series 2022,T20I,2022,2022-09-20,T20I,True,included,included
+17554,1595,England in Pakistan T20I Series 2022,T20I,2022,2022-09-22,T20I,True,included,included
+17555,1595,England in Pakistan T20I Series 2022,T20I,2022,2022-09-23,T20I,True,included,included
+17556,1595,England in Pakistan T20I Series 2022,T20I,2022,2022-09-25,T20I,True,included,included
+17557,1595,England in Pakistan T20I Series 2022,T20I,2022,2022-09-28,T20I,True,included,included
+17558,1595,England in Pakistan T20I Series 2022,T20I,2022,2022-09-30,T20I,True,included,included
+17559,1595,England in Pakistan T20I Series 2022,T20I,2022,2022-10-02,T20I,True,included,included
+17625,1599,South Africa in India T20I Series 2022/23,T20I,2022/23,2022-09-28,T20I,True,included,included
+17626,1599,South Africa in India T20I Series 2022/23,T20I,2022/23,2022-10-02,T20I,True,included,included
+17627,1599,South Africa in India T20I Series 2022/23,T20I,2022/23,2022-10-04,T20I,True,included,included
+17631,1601,Bangladesh in United Arab Emirates T20I Series 2022,T20I,2022,2022-09-25,T20I,True,included,included
+17632,1601,Bangladesh in United Arab Emirates T20I Series 2022,T20I,2022,2022-09-27,T20I,True,included,included
+17640,1603,West Indies in Australia T20I Series 2022,T20I,2022,2022-10-05,T20I,True,included,included
+17641,1603,West Indies in Australia T20I Series 2022,T20I,2022,2022-10-07,T20I,True,included,included
+17737,1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,2022-10-07,T20I,True,included,included
+17738,1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,2022-10-08,T20I,True,included,included
+17739,1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,2022-10-09,T20I,True,included,included
+17740,1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,2022-10-11,T20I,True,included,included
+17741,1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,2022-10-12,T20I,True,included,included
+17742,1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,2022-10-13,T20I,True,included,included
+17743,1608,New Zealand T20I Tri Series 2022/23,T20I,2022/23,2022-10-14,T20I,True,included,included
+17763,1611,England in Australia T20I Series 2022,T20I,2022,2022-10-09,T20I,True,included,included
+17764,1611,England in Australia T20I Series 2022,T20I,2022,2022-10-12,T20I,True,included,included
+17765,1611,England in Australia T20I Series 2022,T20I,2022,2022-10-14,T20I,True,included,included
+18531,1646,India in New Zealand T20I Series 2022/23,T20I,2022/23,2022-11-20,T20I,True,included,included
+18532,1646,India in New Zealand T20I Series 2022/23,T20I,2022/23,2022-11-22,T20I,True,included,included
+19556,1698,Sri Lanka in India T20I Series 2023,T20I,2023,2023-01-03,T20I,True,included,included
+19557,1698,Sri Lanka in India T20I Series 2023,T20I,2023,2023-01-05,T20I,True,included,included
+19558,1698,Sri Lanka in India T20I Series 2023,T20I,2023,2023-01-07,T20I,True,included,included
+19690,1709,Ireland in Zimbabwe T20I Series 2023,T20I,2023,2023-01-12,T20I,True,included,included
+19691,1709,Ireland in Zimbabwe T20I Series 2023,T20I,2023,2023-01-14,T20I,True,included,included
+19692,1709,Ireland in Zimbabwe T20I Series 2023,T20I,2023,2023-01-15,T20I,True,included,included
+19715,1700,New Zealand in India T20I Series 2023,T20I,2023,2023-01-27,T20I,True,included,included
+19716,1700,New Zealand in India T20I Series 2023,T20I,2023,2023-01-29,T20I,True,included,included
+19717,1700,New Zealand in India T20I Series 2023,T20I,2023,2023-02-01,T20I,True,included,included
+19959,1718,West Indies in South Africa T20I Series 2023,T20I,2023,2023-03-25,T20I,True,included,included
+19960,1718,West Indies in South Africa T20I Series 2023,T20I,2023,2023-03-26,T20I,True,included,included
+19961,1718,West Indies in South Africa T20I Series 2023,T20I,2023,2023-03-28,T20I,True,included,included
+20133,1742,England in Bangladesh T20I Series 2023,T20I,2023,2023-03-09,T20I,True,included,included
+20134,1742,England in Bangladesh T20I Series 2023,T20I,2023,2023-03-12,T20I,True,included,included
+20135,1742,England in Bangladesh T20I Series 2023,T20I,2023,2023-03-14,T20I,True,included,included
+20181,1715,IPL 2023,T20,2023,2023-03-31,IPL,True,included,included
+20182,1715,IPL 2023,T20,2023,2023-04-01,IPL,True,included,included
+20183,1715,IPL 2023,T20,2023,2023-04-01,IPL,True,included,included
+20184,1715,IPL 2023,T20,2023,2023-04-02,IPL,True,included,included
+20185,1715,IPL 2023,T20,2023,2023-04-02,IPL,True,included,included
+20186,1715,IPL 2023,T20,2023,2023-04-03,IPL,True,included,included
+20187,1715,IPL 2023,T20,2023,2023-04-04,IPL,True,included,included
+20188,1715,IPL 2023,T20,2023,2023-04-05,IPL,True,included,included
+20189,1715,IPL 2023,T20,2023,2023-04-06,IPL,True,included,included
+20190,1715,IPL 2023,T20,2023,2023-04-07,IPL,True,included,included
+20191,1715,IPL 2023,T20,2023,2023-04-08,IPL,True,included,included
+20192,1715,IPL 2023,T20,2023,2023-04-08,IPL,True,included,included
+20193,1715,IPL 2023,T20,2023,2023-04-09,IPL,True,included,included
+20194,1715,IPL 2023,T20,2023,2023-04-09,IPL,True,included,included
+20195,1715,IPL 2023,T20,2023,2023-04-10,IPL,True,included,included
+20196,1715,IPL 2023,T20,2023,2023-04-11,IPL,True,included,included
+20197,1715,IPL 2023,T20,2023,2023-04-12,IPL,True,included,included
+20198,1715,IPL 2023,T20,2023,2023-04-13,IPL,True,included,included
+20199,1715,IPL 2023,T20,2023,2023-04-14,IPL,True,included,included
+20200,1715,IPL 2023,T20,2023,2023-04-15,IPL,True,included,included
+20201,1715,IPL 2023,T20,2023,2023-04-15,IPL,True,included,included
+20202,1715,IPL 2023,T20,2023,2023-04-16,IPL,True,included,included
+20203,1715,IPL 2023,T20,2023,2023-04-16,IPL,True,included,included
+20204,1715,IPL 2023,T20,2023,2023-04-17,IPL,True,included,included
+20205,1715,IPL 2023,T20,2023,2023-04-18,IPL,True,included,included
+20206,1715,IPL 2023,T20,2023,2023-04-19,IPL,True,included,included
+20207,1715,IPL 2023,T20,2023,2023-04-20,IPL,True,included,included
+20208,1715,IPL 2023,T20,2023,2023-04-20,IPL,True,included,included
+20209,1715,IPL 2023,T20,2023,2023-04-21,IPL,True,included,included
+20210,1715,IPL 2023,T20,2023,2023-04-22,IPL,True,included,included
+20211,1715,IPL 2023,T20,2023,2023-04-22,IPL,True,included,included
+20212,1715,IPL 2023,T20,2023,2023-04-23,IPL,True,included,included
+20213,1715,IPL 2023,T20,2023,2023-04-23,IPL,True,included,included
+20214,1715,IPL 2023,T20,2023,2023-04-24,IPL,True,included,included
+20215,1715,IPL 2023,T20,2023,2023-04-25,IPL,True,included,included
+20216,1715,IPL 2023,T20,2023,2023-04-26,IPL,True,included,included
+20217,1715,IPL 2023,T20,2023,2023-04-27,IPL,True,included,included
+20218,1715,IPL 2023,T20,2023,2023-04-28,IPL,True,included,included
+20219,1715,IPL 2023,T20,2023,2023-04-29,IPL,True,included,included
+20220,1715,IPL 2023,T20,2023,2023-04-29,IPL,True,included,included
+20221,1715,IPL 2023,T20,2023,2023-04-30,IPL,True,included,included
+20222,1715,IPL 2023,T20,2023,2023-04-30,IPL,True,included,included
+20223,1715,IPL 2023,T20,2023,2023-05-01,IPL,True,included,included
+20224,1715,IPL 2023,T20,2023,2023-05-02,IPL,True,included,included
+20225,1715,IPL 2023,T20,2023,2023-05-03,IPL,True,included,included
+20226,1715,IPL 2023,T20,2023,2023-05-03,IPL,True,included,included
+20227,1715,IPL 2023,T20,2023,2023-05-04,IPL,True,included,included
+20228,1715,IPL 2023,T20,2023,2023-05-05,IPL,True,included,included
+20229,1715,IPL 2023,T20,2023,2023-05-06,IPL,True,included,included
+20230,1715,IPL 2023,T20,2023,2023-05-06,IPL,True,included,included
+20231,1715,IPL 2023,T20,2023,2023-05-07,IPL,True,included,included
+20232,1715,IPL 2023,T20,2023,2023-05-07,IPL,True,included,included
+20233,1715,IPL 2023,T20,2023,2023-05-08,IPL,True,included,included
+20234,1715,IPL 2023,T20,2023,2023-05-09,IPL,True,included,included
+20235,1715,IPL 2023,T20,2023,2023-05-10,IPL,True,included,included
+20236,1715,IPL 2023,T20,2023,2023-05-11,IPL,True,included,included
+20237,1715,IPL 2023,T20,2023,2023-05-12,IPL,True,included,included
+20238,1715,IPL 2023,T20,2023,2023-05-13,IPL,True,included,included
+20239,1715,IPL 2023,T20,2023,2023-05-13,IPL,True,included,included
+20240,1715,IPL 2023,T20,2023,2023-05-14,IPL,True,included,included
+20241,1715,IPL 2023,T20,2023,2023-05-14,IPL,True,included,included
+20242,1715,IPL 2023,T20,2023,2023-05-15,IPL,True,included,included
+20243,1715,IPL 2023,T20,2023,2023-05-16,IPL,True,included,included
+20244,1715,IPL 2023,T20,2023,2023-05-17,IPL,True,included,included
+20245,1715,IPL 2023,T20,2023,2023-05-18,IPL,True,included,included
+20246,1715,IPL 2023,T20,2023,2023-05-19,IPL,True,included,included
+20247,1715,IPL 2023,T20,2023,2023-05-20,IPL,True,included,included
+20248,1715,IPL 2023,T20,2023,2023-05-20,IPL,True,included,included
+20249,1715,IPL 2023,T20,2023,2023-05-21,IPL,True,included,included
+20250,1715,IPL 2023,T20,2023,2023-05-21,IPL,True,included,included
+20878,1792,Afghanistan v Pakistan T20I Series 2023,T20I,2023,2023-03-24,T20I,True,included,included
+20879,1792,Afghanistan v Pakistan T20I Series 2023,T20I,2023,2023-03-26,T20I,True,included,included
+20880,1792,Afghanistan v Pakistan T20I Series 2023,T20I,2023,2023-03-27,T20I,True,included,included
+21070,1769,Ireland in Bangladesh T20I Series 2023,T20I,2023,2023-03-27,T20I,True,included,included
+21071,1769,Ireland in Bangladesh T20I Series 2023,T20I,2023,2023-03-29,T20I,True,included,included
+21072,1769,Ireland in Bangladesh T20I Series 2023,T20I,2023,2023-03-31,T20I,True,included,included
+21176,1719,Sri Lanka in New Zealand T20I Series 2023,T20I,2023,2023-04-02,T20I,True,included,included
+21177,1719,Sri Lanka in New Zealand T20I Series 2023,T20I,2023,2023-04-05,T20I,True,included,included
+21178,1719,Sri Lanka in New Zealand T20I Series 2023,T20I,2023,2023-04-08,T20I,True,included,included
+21403,1799,New Zealand in Pakistan T20I Series 2023,T20I,2023,2023-04-14,T20I,True,included,included
+21404,1799,New Zealand in Pakistan T20I Series 2023,T20I,2023,2023-04-15,T20I,True,included,included
+21405,1799,New Zealand in Pakistan T20I Series 2023,T20I,2023,2023-04-17,T20I,True,included,included
+21406,1799,New Zealand in Pakistan T20I Series 2023,T20I,2023,2023-04-20,T20I,True,included,included
+21407,1799,New Zealand in Pakistan T20I Series 2023,T20I,2023,2023-04-24,T20I,True,included,included
+21583,1715,IPL 2023,T20,2023,2023-05-23,IPL,True,included,included
+21584,1715,IPL 2023,T20,2023,2023-05-24,IPL,True,included,included
+21585,1715,IPL 2023,T20,2023,2023-05-26,IPL,True,included,included
+21586,1715,IPL 2023,T20,2023,2023-05-29,IPL,True,included,included
+23673,1885,Afghanistan in Bangladesh T20I Series 2023,T20I,2023,2023-07-14,T20I,True,included,included
+23674,1885,Afghanistan in Bangladesh T20I Series 2023,T20I,2023,2023-07-16,T20I,True,included,included
+24350,1913,India in West Indies T20I Series 2023,T20I,2023,2023-08-03,T20I,True,included,included
+24351,1913,India in West Indies T20I Series 2023,T20I,2023,2023-08-06,T20I,True,included,included
+24352,1913,India in West Indies T20I Series 2023,T20I,2023,2023-08-08,T20I,True,included,included
+24353,1913,India in West Indies T20I Series 2023,T20I,2023,2023-08-12,T20I,True,included,included
+24354,1913,India in West Indies T20I Series 2023,T20I,2023,2023-08-13,T20I,True,included,included
+24792,1997,New Zealand in United Arab Emirates T20I Series 2023,T20I,2023,2023-08-17,T20I,True,included,included
+24793,1997,New Zealand in United Arab Emirates T20I Series 2023,T20I,2023,2023-08-19,T20I,True,included,included
+24794,1997,New Zealand in United Arab Emirates T20I Series 2023,T20I,2023,2023-08-20,T20I,True,included,included
+24822,1998,India in Ireland T20I Series 2023,T20I,2023,2023-08-18,T20I,True,included,included
+24823,1998,India in Ireland T20I Series 2023,T20I,2023,2023-08-20,T20I,True,included,included
+25155,2000,Australia in South Africa T20I Series 2023,T20I,2023,2023-08-30,T20I,True,included,included
+25156,2000,Australia in South Africa T20I Series 2023,T20I,2023,2023-09-01,T20I,True,included,included
+25157,2000,Australia in South Africa T20I Series 2023,T20I,2023,2023-09-03,T20I,True,included,included
+25158,1999,New Zealand in England T20I Series 2023,T20I,2023,2023-08-30,T20I,True,included,included
+25159,1999,New Zealand in England T20I Series 2023,T20I,2023,2023-09-01,T20I,True,included,included
+25160,1999,New Zealand in England T20I Series 2023,T20I,2023,2023-09-03,T20I,True,included,included
+25161,1999,New Zealand in England T20I Series 2023,T20I,2023,2023-09-05,T20I,True,included,included
+27060,2046,Australia in India T20I Series 2023,T20I,2023,2023-11-23,T20I,True,included,included
+27061,2046,Australia in India T20I Series 2023,T20I,2023,2023-11-26,T20I,True,included,included
+27062,2046,Australia in India T20I Series 2023,T20I,2023,2023-11-28,T20I,True,included,included
+27063,2046,Australia in India T20I Series 2023,T20I,2023,2023-12-01,T20I,True,included,included
+27064,2046,Australia in India T20I Series 2023,T20I,2023,2023-12-03,T20I,True,included,included
+28046,2047,India in South Africa T20I Series 2023,T20I,2023,2023-12-12,T20I,True,included,included
+28047,2047,India in South Africa T20I Series 2023,T20I,2023,2023-12-14,T20I,True,included,included
+28057,2188,Ireland in Zimbabwe T20I Series 2023/24,T20I,2023/24,2023-12-07,T20I,True,included,included
+28058,2188,Ireland in Zimbabwe T20I Series 2023/24,T20I,2023/24,2023-12-09,T20I,True,included,included
+28059,2188,Ireland in Zimbabwe T20I Series 2023/24,T20I,2023/24,2023-12-10,T20I,True,included,included
+28063,2048,England in West Indies T20I Series 2023,T20I,2023,2023-12-13,T20I,True,included,included
+28064,2048,England in West Indies T20I Series 2023,T20I,2023,2023-12-14,T20I,True,included,included
+28065,2048,England in West Indies T20I Series 2023,T20I,2023,2023-12-16,T20I,True,included,included
+28066,2048,England in West Indies T20I Series 2023,T20I,2023,2023-12-20,T20I,True,included,included
+28067,2048,England in West Indies T20I Series 2023,T20I,2023,2023-12-22,T20I,True,included,included
+28332,2058,Bangladesh in New Zealand T20I Series 2023,T20I,2023,2023-12-27,T20I,True,included,included
+28333,2058,Bangladesh in New Zealand T20I Series 2023,T20I,2023,2023-12-29,T20I,True,included,included
+28334,2058,Bangladesh in New Zealand T20I Series 2023,T20I,2023,2023-12-31,T20I,True,included,included
+28957,2229,Zimbabwe in Sri Lanka T20I Series 2024,T20I,2024,2024-01-14,T20I,True,included,included
+28958,2229,Zimbabwe in Sri Lanka T20I Series 2024,T20I,2024,2024-01-16,T20I,True,included,included
+28959,2229,Zimbabwe in Sri Lanka T20I Series 2024,T20I,2024,2024-01-18,T20I,True,included,included
+28960,2059,Afghanistan in India T20I Series 2024,T20I,2024,2024-01-11,T20I,True,included,included
+28961,2059,Afghanistan in India T20I Series 2024,T20I,2024,2024-01-14,T20I,True,included,included
+28962,2059,Afghanistan in India T20I Series 2024,T20I,2024,2024-01-17,T20I,True,included,included
+28963,2060,Pakistan in New Zealand T20I series 2024,T20I,2024,2024-01-12,T20I,True,included,included
+28964,2060,Pakistan in New Zealand T20I series 2024,T20I,2024,2024-01-14,T20I,True,included,included
+28965,2060,Pakistan in New Zealand T20I series 2024,T20I,2024,2024-01-17,T20I,True,included,included
+28966,2060,Pakistan in New Zealand T20I series 2024,T20I,2024,2024-01-19,T20I,True,included,included
+28967,2060,Pakistan in New Zealand T20I series 2024,T20I,2024,2024-01-21,T20I,True,included,included
+29815,2061,West Indies in Australia T20I Series 2024,T20I,2024,2024-02-09,T20I,True,included,included
+29816,2061,West Indies in Australia T20I Series 2024,T20I,2024,2024-02-11,T20I,True,included,included
+29817,2061,West Indies in Australia T20I Series 2024,T20I,2024,2024-02-13,T20I,True,included,included
+29924,2267,Afghanistan in Sri Lanka T20I Series 2024,T20I,2024,2024-02-17,T20I,True,included,included
+29925,2267,Afghanistan in Sri Lanka T20I Series 2024,T20I,2024,2024-02-19,T20I,True,included,included
+29926,2267,Afghanistan in Sri Lanka T20I Series 2024,T20I,2024,2024-02-21,T20I,True,included,included
+29982,2062,Australia in New Zealand T20I Series 2024,T20I,2024,2024-02-21,T20I,True,included,included
+29983,2062,Australia in New Zealand T20I Series 2024,T20I,2024,2024-02-23,T20I,True,included,included
+29984,2062,Australia in New Zealand T20I Series 2024,T20I,2024,2024-02-25,T20I,True,included,included
+30056,2193,IPL 2024,T20,2024,2024-03-22,IPL,True,included,included
+30057,2193,IPL 2024,T20,2024,2024-03-23,IPL,True,included,included
+30058,2193,IPL 2024,T20,2024,2024-03-23,IPL,True,included,included
+30059,2193,IPL 2024,T20,2024,2024-03-24,IPL,True,included,included
+30060,2193,IPL 2024,T20,2024,2024-03-24,IPL,True,included,included
+30061,2193,IPL 2024,T20,2024,2024-03-25,IPL,True,included,included
+30062,2193,IPL 2024,T20,2024,2024-03-26,IPL,True,included,included
+30063,2193,IPL 2024,T20,2024,2024-03-27,IPL,True,included,included
+30064,2193,IPL 2024,T20,2024,2024-03-28,IPL,True,included,included
+30065,2193,IPL 2024,T20,2024,2024-03-29,IPL,True,included,included
+30066,2193,IPL 2024,T20,2024,2024-03-30,IPL,True,included,included
+30067,2193,IPL 2024,T20,2024,2024-03-31,IPL,True,included,included
+30068,2193,IPL 2024,T20,2024,2024-03-31,IPL,True,included,included
+30069,2193,IPL 2024,T20,2024,2024-04-01,IPL,True,included,included
+30070,2193,IPL 2024,T20,2024,2024-04-02,IPL,True,included,included
+30071,2193,IPL 2024,T20,2024,2024-04-03,IPL,True,included,included
+30072,2193,IPL 2024,T20,2024,2024-04-04,IPL,True,included,included
+30073,2193,IPL 2024,T20,2024,2024-04-05,IPL,True,included,included
+30074,2193,IPL 2024,T20,2024,2024-04-06,IPL,True,included,included
+30075,2193,IPL 2024,T20,2024,2024-04-07,IPL,True,included,included
+30076,2193,IPL 2024,T20,2024,2024-04-07,IPL,True,included,included
+30341,2305,Sri Lanka in Bangladesh T20I Series 2024,T20I,2024,2024-03-04,T20I,True,included,included
+30342,2305,Sri Lanka in Bangladesh T20I Series 2024,T20I,2024,2024-03-06,T20I,True,included,included
+30343,2305,Sri Lanka in Bangladesh T20I Series 2024,T20I,2024,2024-03-09,T20I,True,included,included
+30728,2269,Afghanistan v Ireland T20I Series 2024,T20I,2024,2024-03-15,T20I,True,included,included
+30729,2269,Afghanistan v Ireland T20I Series 2024,T20I,2024,2024-03-17,T20I,True,included,included
+30730,2269,Afghanistan v Ireland T20I Series 2024,T20I,2024,2024-03-18,T20I,True,included,included
+31240,2193,IPL 2024,T20,2024,2024-04-08,IPL,True,included,included
+31241,2193,IPL 2024,T20,2024,2024-04-09,IPL,True,included,included
+31242,2193,IPL 2024,T20,2024,2024-04-10,IPL,True,included,included
+31243,2193,IPL 2024,T20,2024,2024-04-11,IPL,True,included,included
+31244,2193,IPL 2024,T20,2024,2024-04-12,IPL,True,included,included
+31245,2193,IPL 2024,T20,2024,2024-04-13,IPL,True,included,included
+31246,2193,IPL 2024,T20,2024,2024-04-14,IPL,True,included,included
+31247,2193,IPL 2024,T20,2024,2024-04-14,IPL,True,included,included
+31248,2193,IPL 2024,T20,2024,2024-04-15,IPL,True,included,included
+31249,2193,IPL 2024,T20,2024,2024-04-17,IPL,True,included,included
+31250,2193,IPL 2024,T20,2024,2024-04-16,IPL,True,included,included
+31251,2193,IPL 2024,T20,2024,2024-04-18,IPL,True,included,included
+31252,2193,IPL 2024,T20,2024,2024-04-19,IPL,True,included,included
+31253,2193,IPL 2024,T20,2024,2024-04-20,IPL,True,included,included
+31254,2193,IPL 2024,T20,2024,2024-04-21,IPL,True,included,included
+31255,2193,IPL 2024,T20,2024,2024-04-21,IPL,True,included,included
+31256,2193,IPL 2024,T20,2024,2024-04-22,IPL,True,included,included
+31257,2193,IPL 2024,T20,2024,2024-04-23,IPL,True,included,included
+31258,2193,IPL 2024,T20,2024,2024-04-24,IPL,True,included,included
+31259,2193,IPL 2024,T20,2024,2024-04-25,IPL,True,included,included
+31260,2193,IPL 2024,T20,2024,2024-04-26,IPL,True,included,included
+31261,2193,IPL 2024,T20,2024,2024-04-27,IPL,True,included,included
+31262,2193,IPL 2024,T20,2024,2024-04-27,IPL,True,included,included
+31263,2193,IPL 2024,T20,2024,2024-04-28,IPL,True,included,included
+31264,2193,IPL 2024,T20,2024,2024-04-28,IPL,True,included,included
+31265,2193,IPL 2024,T20,2024,2024-04-29,IPL,True,included,included
+31266,2193,IPL 2024,T20,2024,2024-04-30,IPL,True,included,included
+31267,2193,IPL 2024,T20,2024,2024-05-01,IPL,True,included,included
+31268,2193,IPL 2024,T20,2024,2024-05-02,IPL,True,included,included
+31269,2193,IPL 2024,T20,2024,2024-05-03,IPL,True,included,included
+31270,2193,IPL 2024,T20,2024,2024-05-04,IPL,True,included,included
+31271,2193,IPL 2024,T20,2024,2024-05-05,IPL,True,included,included
+31272,2193,IPL 2024,T20,2024,2024-05-05,IPL,True,included,included
+31273,2193,IPL 2024,T20,2024,2024-05-06,IPL,True,included,included
+31274,2193,IPL 2024,T20,2024,2024-05-07,IPL,True,included,included
+31275,2193,IPL 2024,T20,2024,2024-05-08,IPL,True,included,included
+31276,2193,IPL 2024,T20,2024,2024-05-09,IPL,True,included,included
+31277,2193,IPL 2024,T20,2024,2024-05-10,IPL,True,included,included
+31278,2193,IPL 2024,T20,2024,2024-05-11,IPL,True,included,included
+31279,2193,IPL 2024,T20,2024,2024-05-12,IPL,True,included,included
+31280,2193,IPL 2024,T20,2024,2024-05-12,IPL,True,included,included
+31281,2193,IPL 2024,T20,2024,2024-05-13,IPL,False,excluded,eligible_match_without_deliveries
+31282,2193,IPL 2024,T20,2024,2024-05-14,IPL,True,included,included
+31283,2193,IPL 2024,T20,2024,2024-05-15,IPL,True,included,included
+31284,2193,IPL 2024,T20,2024,2024-05-16,IPL,False,excluded,eligible_match_without_deliveries
+31285,2193,IPL 2024,T20,2024,2024-05-17,IPL,True,included,included
+31286,2193,IPL 2024,T20,2024,2024-05-18,IPL,True,included,included
+31287,2193,IPL 2024,T20,2024,2024-05-19,IPL,True,included,included
+31288,2193,IPL 2024,T20,2024,2024-05-19,IPL,False,excluded,eligible_match_without_deliveries
+31289,2193,IPL 2024,T20,2024,2024-05-21,IPL,True,included,included
+31290,2193,IPL 2024,T20,2024,2024-05-22,IPL,True,included,included
+31291,2193,IPL 2024,T20,2024,2024-05-24,IPL,True,included,included
+31292,2193,IPL 2024,T20,2024,2024-05-26,IPL,True,included,included
+31707,2350,New Zealand in Pakistan T20I Series 2024,T20I,2024,2024-04-18,T20I,True,included,included
+31708,2350,New Zealand in Pakistan T20I Series 2024,T20I,2024,2024-04-20,T20I,True,included,included
+31709,2350,New Zealand in Pakistan T20I Series 2024,T20I,2024,2024-04-21,T20I,True,included,included
+31710,2350,New Zealand in Pakistan T20I Series 2024,T20I,2024,2024-04-25,T20I,True,included,included
+31711,2350,New Zealand in Pakistan T20I Series 2024,T20I,2024,2024-04-27,T20I,True,included,included
+32132,2371,Zimbabwe in Bangladesh T20I Series 2024,T20I,2024,2024-05-03,T20I,True,included,included
+32133,2371,Zimbabwe in Bangladesh T20I Series 2024,T20I,2024,2024-05-05,T20I,True,included,included
+32134,2371,Zimbabwe in Bangladesh T20I Series 2024,T20I,2024,2024-05-07,T20I,True,included,included
+32135,2371,Zimbabwe in Bangladesh T20I Series 2024,T20I,2024,2024-05-10,T20I,True,included,included
+32136,2371,Zimbabwe in Bangladesh T20I Series 2024,T20I,2024,2024-05-12,T20I,True,included,included
+32290,2395,Pakistan in Ireland T20I series 2024,T20I,2024,2024-05-10,T20I,True,included,included
+32291,2395,Pakistan in Ireland T20I series 2024,T20I,2024,2024-05-12,T20I,True,included,included
+32292,2395,Pakistan in Ireland T20I series 2024,T20I,2024,2024-05-14,T20I,True,included,included
+32610,2354,Pakistan in England T20I Series 2024,T20I,2024,2024-05-22,T20I,False,excluded,eligible_match_without_deliveries
+32611,2354,Pakistan in England T20I Series 2024,T20I,2024,2024-05-25,T20I,True,included,included
+32612,2354,Pakistan in England T20I Series 2024,T20I,2024,2024-05-28,T20I,False,excluded,eligible_match_without_deliveries
+32613,2354,Pakistan in England T20I Series 2024,T20I,2024,2024-05-30,T20I,True,included,included
+32617,2452,South Africa in West Indies T20I Series [May 2024] 2024,T20I,2024,2024-05-24,T20I,True,included,included
+32618,2452,South Africa in West Indies T20I Series [May 2024] 2024,T20I,2024,2024-05-26,T20I,True,included,included
+32619,2452,South Africa in West Indies T20I Series [May 2024] 2024,T20I,2024,2024-05-27,T20I,True,included,included
+32620,2398,Netherlands Tri-Nation T20I Series 2024,T20I,2024,2024-05-18,T20I,True,included,included
+32621,2398,Netherlands Tri-Nation T20I Series 2024,T20I,2024,2024-05-19,T20I,True,included,included
+32622,2398,Netherlands Tri-Nation T20I Series 2024,T20I,2024,2024-05-20,T20I,False,excluded,eligible_match_without_deliveries
+32623,2398,Netherlands Tri-Nation T20I Series 2024,T20I,2024,2024-05-22,T20I,True,included,included
+32624,2398,Netherlands Tri-Nation T20I Series 2024,T20I,2024,2024-05-23,T20I,True,included,included
+32625,2398,Netherlands Tri-Nation T20I Series 2024,T20I,2024,2024-05-24,T20I,True,included,included
+33803,2372,India in Zimbabwe T20I Series 2024,T20I,2024,2024-07-06,T20I,True,included,included
+33804,2372,India in Zimbabwe T20I Series 2024,T20I,2024,2024-07-07,T20I,True,included,included
+33805,2372,India in Zimbabwe T20I Series 2024,T20I,2024,2024-07-10,T20I,True,included,included
+33806,2372,India in Zimbabwe T20I Series 2024,T20I,2024,2024-07-13,T20I,True,included,included
+33807,2372,India in Zimbabwe T20I Series 2024,T20I,2024,2024-07-14,T20I,True,included,included
+34427,2542,India in Sri Lanka T20I Series 2024,T20I,2024,2024-07-27,T20I,True,included,included
+34428,2542,India in Sri Lanka T20I Series 2024,T20I,2024,2024-07-28,T20I,True,included,included
+34429,2542,India in Sri Lanka T20I Series 2024,T20I,2024,2024-07-30,T20I,True,included,included
+35423,2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,T20I,2024,2024-08-23,T20I,True,included,included
+35424,2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,T20I,2024,2024-08-24,T20I,True,included,included
+35425,2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,T20I,2024,2024-08-25,T20I,True,included,included
+35427,2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,T20I,2024,2024-08-26,T20I,True,included,included
+35428,2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,T20I,2024,2024-08-27,T20I,True,included,included
+35429,2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,T20I,2024,2024-08-28,T20I,True,included,included
+36096,2453,South Africa in West Indies T20I Series 2024,T20I,2024,2024-08-24,T20I,True,included,included
+36097,2453,South Africa in West Indies T20I Series 2024,T20I,2024,2024-08-26,T20I,True,included,included
+36098,2453,South Africa in West Indies T20I Series 2024,T20I,2024,2024-08-28,T20I,True,included,included
+36199,2626,West Indies in England T20I Series 2025,T20I,2025,2025-06-06,T20I,True,included,included
+36200,2626,West Indies in England T20I Series 2025,T20I,2025,2025-06-08,T20I,True,included,included
+36201,2626,West Indies in England T20I Series 2025,T20I,2025,2025-06-10,T20I,True,included,included
+36208,2628,South Africa in England T20I Series 2025,T20I,2025,2025-09-10,T20I,True,included,included
+36209,2628,South Africa in England T20I Series 2025,T20I,2025,2025-09-12,T20I,True,included,included
+36210,2628,South Africa in England T20I Series 2025,T20I,2025,2025-09-14,T20I,False,excluded,eligible_match_without_deliveries
+36559,2561,Australia in Scotland T20I Series 2024,T20I,2024,2024-09-04,T20I,True,included,included
+36560,2561,Australia in Scotland T20I Series 2024,T20I,2024,2024-09-06,T20I,True,included,included
+36561,2561,Australia in Scotland T20I Series 2024,T20I,2024,2024-09-07,T20I,True,included,included
+36562,2548,Australia in England T20I Series 2024,T20I,2024,2024-09-11,T20I,True,included,included
+36563,2548,Australia in England T20I Series 2024,T20I,2024,2024-09-13,T20I,True,included,included
+36564,2548,Australia in England T20I Series 2024,T20I,2024,2024-09-15,T20I,False,excluded,eligible_match_without_deliveries
+37014,2562,Ireland v South Africa T20I Series 2024,T20I,2024,2024-09-27,T20I,True,included,included
+37015,2562,Ireland v South Africa T20I Series 2024,T20I,2024,2024-09-29,T20I,True,included,included
+37085,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-18,,True,excluded,outside_IPL_T20I_scope
+37086,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-18,,True,excluded,outside_IPL_T20I_scope
+37087,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-19,,True,excluded,outside_IPL_T20I_scope
+37088,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-19,,True,excluded,outside_IPL_T20I_scope
+37089,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-20,,True,excluded,outside_IPL_T20I_scope
+37090,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-20,,True,excluded,outside_IPL_T20I_scope
+37091,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-21,,True,excluded,outside_IPL_T20I_scope
+37092,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-21,,True,excluded,outside_IPL_T20I_scope
+37093,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-22,,True,excluded,outside_IPL_T20I_scope
+37094,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-22,,True,excluded,outside_IPL_T20I_scope
+37095,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-23,,True,excluded,outside_IPL_T20I_scope
+37096,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-23,,True,excluded,outside_IPL_T20I_scope
+37097,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-25,,True,excluded,outside_IPL_T20I_scope
+37098,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-25,,True,excluded,outside_IPL_T20I_scope
+37099,2670,Mens T20 Emerging Teams Asia Cup 2024,T20,2024,2024-10-27,,True,excluded,outside_IPL_T20I_scope
+37276,2512,Bangladesh in India T20I Series 2024,T20I,2024,2024-10-06,T20I,True,included,included
+37277,2512,Bangladesh in India T20I Series 2024,T20I,2024,2024-10-09,T20I,True,included,included
+37278,2512,Bangladesh in India T20I Series 2024,T20I,2024,2024-10-12,T20I,True,included,included
+37349,2455,England in West Indies T20I Series 2024,T20I,2024,2024-11-10,T20I,True,included,included
+37350,2455,England in West Indies T20I Series 2024,T20I,2024,2024-11-11,T20I,True,included,included
+37351,2455,England in West Indies T20I Series 2024,T20I,2024,2024-11-15,T20I,True,included,included
+37352,2455,England in West Indies T20I Series 2024,T20I,2024,2024-11-17,T20I,True,included,included
+37353,2455,England in West Indies T20I Series 2024,T20I,2024,2024-11-18,T20I,True,included,included
+37354,2387,Pakistan in Australia T20I Series 2024,T20I,2024,2024-11-14,T20I,True,included,included
+37355,2387,Pakistan in Australia T20I Series 2024,T20I,2024,2024-11-16,T20I,True,included,included
+37356,2387,Pakistan in Australia T20I Series 2024,T20I,2024,2024-11-18,T20I,True,included,included
+37553,2692,West Indies in Sri Lanka T20I Series 2024,T20I,2024,2024-10-13,T20I,True,included,included
+37554,2692,West Indies in Sri Lanka T20I Series 2024,T20I,2024,2024-10-15,T20I,True,included,included
+37555,2692,West Indies in Sri Lanka T20I Series 2024,T20I,2024,2024-10-17,T20I,True,included,included
+37894,2716,New Zealand in Sri Lanka T20I Series 2024,T20I,2024,2024-11-09,T20I,True,included,included
+37895,2716,New Zealand in Sri Lanka T20I Series 2024,T20I,2024,2024-11-10,T20I,True,included,included
+37926,2722,Pakistan in Zimbabwe T20I Series 2024,T20I,2024,2024-12-01,T20I,True,included,included
+37927,2722,Pakistan in Zimbabwe T20I Series 2024,T20I,2024,2024-12-03,T20I,True,included,included
+37928,2722,Pakistan in Zimbabwe T20I Series 2024,T20I,2024,2024-12-05,T20I,True,included,included
+37940,2718,India in South Africa T20I Series 2024,T20I,2024,2024-11-08,T20I,True,included,included
+37941,2718,India in South Africa T20I Series 2024,T20I,2024,2024-11-10,T20I,True,included,included
+37942,2718,India in South Africa T20I Series 2024,T20I,2024,2024-11-13,T20I,True,included,included
+37943,2718,India in South Africa T20I Series 2024,T20I,2024,2024-11-15,T20I,True,included,included
+38626,2753,Afghanistan in Zimbabwe T20I Series 2024,T20I,2024,2024-12-09,T20I,True,included,included
+38627,2753,Afghanistan in Zimbabwe T20I Series 2024,T20I,2024,2024-12-11,T20I,True,included,included
+38628,2753,Afghanistan in Zimbabwe T20I Series 2024,T20I,2024,2024-12-12,T20I,True,included,included
+38632,2755,Sri Lanka in New Zealand T20I Series 2024/25,T20I,2024/25,2024-12-28,T20I,True,included,included
+38633,2755,Sri Lanka in New Zealand T20I Series 2024/25,T20I,2024/25,2024-12-30,T20I,True,included,included
+38634,2755,Sri Lanka in New Zealand T20I Series 2024/25,T20I,2024/25,2025-01-02,T20I,True,included,included
+38795,2442,Pakistan in South Africa T20I Series 2024,T20I,2024,2024-12-10,T20I,True,included,included
+38796,2442,Pakistan in South Africa T20I Series 2024,T20I,2024,2024-12-13,T20I,True,included,included
+38797,2442,Pakistan in South Africa T20I Series 2024,T20I,2024,2024-12-14,T20I,False,excluded,eligible_match_without_deliveries
+38842,2457,Bangladesh in West Indies T20I Series 2024,T20I,2024,2024-12-16,T20I,True,included,included
+38843,2457,Bangladesh in West Indies T20I Series 2024,T20I,2024,2024-12-18,T20I,True,included,included
+38844,2457,Bangladesh in West Indies T20I Series 2024,T20I,2024,2024-12-20,T20I,True,included,included
+39808,2793,Pakistan in New Zealand T20I Series 2025,T20I,2025,2025-03-16,T20I,True,included,included
+39809,2793,Pakistan in New Zealand T20I Series 2025,T20I,2025,2025-03-18,T20I,True,included,included
+39810,2793,Pakistan in New Zealand T20I Series 2025,T20I,2025,2025-03-21,T20I,True,included,included
+39811,2793,Pakistan in New Zealand T20I Series 2025,T20I,2025,2025-03-23,T20I,True,included,included
+39812,2793,Pakistan in New Zealand T20I Series 2025,T20I,2025,2025-03-26,T20I,True,included,included
+39983,2801,Ireland in Zimbabwe T20I Series 2025,T20I,2025,2025-02-22,T20I,True,included,included
+39984,2801,Ireland in Zimbabwe T20I Series 2025,T20I,2025,2025-02-23,T20I,True,included,included
+39985,2801,Ireland in Zimbabwe T20I Series 2025,T20I,2025,2025-02-25,T20I,True,included,included
+40036,2513,England in India T20I Series 2025,T20I,2025,2025-01-22,T20I,True,included,included
+40037,2513,England in India T20I Series 2025,T20I,2025,2025-01-25,T20I,True,included,included
+40038,2513,England in India T20I Series 2025,T20I,2025,2025-01-28,T20I,True,included,included
+40039,2513,England in India T20I Series 2025,T20I,2025,2025-01-31,T20I,True,included,included
+40040,2513,England in India T20I Series 2025,T20I,2025,2025-02-02,T20I,True,included,included
+40694,2725,IPL 2025,T20,2025,2025-03-22,IPL,True,included,included
+40695,2725,IPL 2025,T20,2025,2025-03-23,IPL,True,included,included
+40696,2725,IPL 2025,T20,2025,2025-03-23,IPL,True,included,included
+40697,2725,IPL 2025,T20,2025,2025-03-24,IPL,True,included,included
+40698,2725,IPL 2025,T20,2025,2025-03-25,IPL,True,included,included
+40699,2725,IPL 2025,T20,2025,2025-03-26,IPL,True,included,included
+40700,2725,IPL 2025,T20,2025,2025-03-27,IPL,True,included,included
+40701,2725,IPL 2025,T20,2025,2025-03-28,IPL,True,included,included
+40702,2725,IPL 2025,T20,2025,2025-03-29,IPL,True,included,included
+40703,2725,IPL 2025,T20,2025,2025-03-30,IPL,True,included,included
+40704,2725,IPL 2025,T20,2025,2025-03-30,IPL,True,included,included
+40705,2725,IPL 2025,T20,2025,2025-03-31,IPL,True,included,included
+40706,2725,IPL 2025,T20,2025,2025-04-01,IPL,True,included,included
+40707,2725,IPL 2025,T20,2025,2025-04-02,IPL,True,included,included
+40708,2725,IPL 2025,T20,2025,2025-04-03,IPL,True,included,included
+40709,2725,IPL 2025,T20,2025,2025-04-04,IPL,True,included,included
+40710,2725,IPL 2025,T20,2025,2025-04-05,IPL,True,included,included
+40711,2725,IPL 2025,T20,2025,2025-04-05,IPL,True,included,included
+40712,2725,IPL 2025,T20,2025,2025-04-08,IPL,True,included,included
+40713,2725,IPL 2025,T20,2025,2025-04-06,IPL,True,included,included
+40714,2725,IPL 2025,T20,2025,2025-04-07,IPL,True,included,included
+40715,2725,IPL 2025,T20,2025,2025-04-08,IPL,True,included,included
+40716,2725,IPL 2025,T20,2025,2025-04-09,IPL,True,included,included
+40717,2725,IPL 2025,T20,2025,2025-04-10,IPL,True,included,included
+40718,2725,IPL 2025,T20,2025,2025-04-11,IPL,True,included,included
+40719,2725,IPL 2025,T20,2025,2025-04-12,IPL,True,included,included
+40720,2725,IPL 2025,T20,2025,2025-04-12,IPL,True,included,included
+40721,2725,IPL 2025,T20,2025,2025-04-13,IPL,True,included,included
+40722,2725,IPL 2025,T20,2025,2025-04-13,IPL,True,included,included
+40723,2725,IPL 2025,T20,2025,2025-04-14,IPL,True,included,included
+40724,2725,IPL 2025,T20,2025,2025-04-15,IPL,True,included,included
+40725,2725,IPL 2025,T20,2025,2025-04-16,IPL,True,included,included
+40726,2725,IPL 2025,T20,2025,2025-04-17,IPL,True,included,included
+40727,2725,IPL 2025,T20,2025,2025-04-18,IPL,True,included,included
+40728,2725,IPL 2025,T20,2025,2025-04-19,IPL,True,included,included
+40729,2725,IPL 2025,T20,2025,2025-04-19,IPL,True,included,included
+40730,2725,IPL 2025,T20,2025,2025-04-20,IPL,True,included,included
+40731,2725,IPL 2025,T20,2025,2025-04-20,IPL,True,included,included
+40732,2725,IPL 2025,T20,2025,2025-04-21,IPL,True,included,included
+40733,2725,IPL 2025,T20,2025,2025-04-22,IPL,True,included,included
+40734,2725,IPL 2025,T20,2025,2025-04-23,IPL,True,included,included
+40735,2725,IPL 2025,T20,2025,2025-04-24,IPL,True,included,included
+40736,2725,IPL 2025,T20,2025,2025-04-25,IPL,True,included,included
+40737,2725,IPL 2025,T20,2025,2025-04-26,IPL,True,included,included
+40738,2725,IPL 2025,T20,2025,2025-04-27,IPL,True,included,included
+40739,2725,IPL 2025,T20,2025,2025-04-27,IPL,True,included,included
+40740,2725,IPL 2025,T20,2025,2025-04-28,IPL,True,included,included
+40741,2725,IPL 2025,T20,2025,2025-04-29,IPL,True,included,included
+40742,2725,IPL 2025,T20,2025,2025-04-30,IPL,True,included,included
+40743,2725,IPL 2025,T20,2025,2025-05-01,IPL,True,included,included
+40744,2725,IPL 2025,T20,2025,2025-05-02,IPL,True,included,included
+40745,2725,IPL 2025,T20,2025,2025-05-03,IPL,True,included,included
+40746,2725,IPL 2025,T20,2025,2025-05-04,IPL,True,included,included
+40747,2725,IPL 2025,T20,2025,2025-05-04,IPL,True,included,included
+40748,2725,IPL 2025,T20,2025,2025-05-05,IPL,True,included,included
+40749,2725,IPL 2025,T20,2025,2025-05-06,IPL,True,included,included
+40750,2725,IPL 2025,T20,2025,2025-05-07,IPL,True,included,included
+40751,2725,IPL 2025,T20,2025,2025-05-08,IPL,True,included,included
+40752,2725,IPL 2025,T20,2025,2025-05-27,IPL,True,included,included
+40753,2725,IPL 2025,T20,2025,2025-05-25,IPL,True,included,included
+40754,2725,IPL 2025,T20,2025,2025-05-26,IPL,True,included,included
+40755,2725,IPL 2025,T20,2025,2025-05-18,IPL,True,included,included
+40756,2725,IPL 2025,T20,2025,2025-05-20,IPL,True,included,included
+40757,2725,IPL 2025,T20,2025,2025-05-23,IPL,True,included,included
+40758,2725,IPL 2025,T20,2025,2025-05-22,IPL,True,included,included
+40759,2725,IPL 2025,T20,2025,2025-05-21,IPL,True,included,included
+40760,2725,IPL 2025,T20,2025,2025-05-18,IPL,True,included,included
+40761,2725,IPL 2025,T20,2025,2025-05-17,IPL,False,excluded,eligible_match_without_deliveries
+40762,2725,IPL 2025,T20,2025,2025-05-25,IPL,True,included,included
+40763,2725,IPL 2025,T20,2025,2025-05-19,IPL,True,included,included
+40764,2725,IPL 2025,T20,2025,2025-05-29,IPL,True,included,included
+40765,2725,IPL 2025,T20,2025,2025-05-30,IPL,True,included,included
+40766,2725,IPL 2025,T20,2025,2025-06-01,IPL,True,included,included
+40767,2725,IPL 2025,T20,2025,2025-06-03,IPL,True,included,included
+41502,2873,West Indies in Ireland T20I Series 2025,T20I,2025,2025-06-12,T20I,False,excluded,eligible_match_without_deliveries
+41503,2873,West Indies in Ireland T20I Series 2025,T20I,2025,2025-06-14,T20I,False,excluded,eligible_match_without_deliveries
+41504,2873,West Indies in Ireland T20I Series 2025,T20I,2025,2025-06-15,T20I,True,included,included
+41505,2874,Australia in West Indies T20I Series 2025,T20I,2025,2025-07-20,T20I,True,included,included
+41506,2874,Australia in West Indies T20I Series 2025,T20I,2025,2025-07-22,T20I,True,included,included
+41507,2874,Australia in West Indies T20I Series 2025,T20I,2025,2025-07-25,T20I,True,included,included
+41508,2874,Australia in West Indies T20I Series 2025,T20I,2025,2025-07-26,T20I,True,included,included
+41509,2874,Australia in West Indies T20I Series 2025,T20I,2025,2025-07-28,T20I,True,included,included
+41510,2875,Pakistan in West Indies T20I Series 2025,T20I,2025,2025-07-31,T20I,True,included,included
+41511,2875,Pakistan in West Indies T20I Series 2025,T20I,2025,2025-08-02,T20I,True,included,included
+41512,2875,Pakistan in West Indies T20I Series 2025,T20I,2025,2025-08-03,T20I,True,included,included
+41849,2906,West Indies in South Africa T20I Series 2026,T20I,2026,2026-01-27,T20I,True,included,included
+41850,2906,West Indies in South Africa T20I Series 2026,T20I,2026,2026-01-29,T20I,True,included,included
+41851,2906,West Indies in South Africa T20I Series 2026,T20I,2026,2026-02-01,T20I,True,included,included
+41969,2912,South Africa in Australia T20I Series 2025,T20I,2025,2025-08-10,T20I,True,included,included
+41970,2912,South Africa in Australia T20I Series 2025,T20I,2025,2025-08-12,T20I,True,included,included
+41971,2912,South Africa in Australia T20I Series 2025,T20I,2025,2025-08-16,T20I,True,included,included
+41975,2915,India in Australia T20I Series 2025,T20I,2025,2025-10-29,T20I,True,included,included
+41976,2915,India in Australia T20I Series 2025,T20I,2025,2025-10-31,T20I,True,included,included
+41977,2915,India in Australia T20I Series 2025,T20I,2025,2025-11-02,T20I,True,included,included
+41978,2915,India in Australia T20I Series 2025,T20I,2025,2025-11-06,T20I,True,included,included
+41979,2915,India in Australia T20I Series 2025,T20I,2025,2025-11-08,T20I,True,included,included
+42027,2921,South Africa in India T20I Series 2025,T20I,2025,2025-12-09,T20I,True,included,included
+42028,2921,South Africa in India T20I Series 2025,T20I,2025,2025-12-11,T20I,True,included,included
+42029,2921,South Africa in India T20I Series 2025,T20I,2025,2025-12-14,T20I,True,included,included
+42030,2921,South Africa in India T20I Series 2025,T20I,2025,2025-12-17,T20I,False,excluded,eligible_match_without_deliveries
+42031,2921,South Africa in India T20I Series 2025,T20I,2025,2025-12-19,T20I,True,included,included
+42742,2973,Bangladesh in Pakistan T20I Series 2025,T20I,2025,2025-05-28,T20I,True,included,included
+42743,2973,Bangladesh in Pakistan T20I Series 2025,T20I,2025,2025-05-30,T20I,True,included,included
+42744,2973,Bangladesh in Pakistan T20I Series 2025,T20I,2025,2025-06-01,T20I,True,included,included
+42783,2975,Bangladesh in United Arab Emirates T20I Series 2025,T20I,2025,2025-05-17,T20I,True,included,included
+42784,2975,Bangladesh in United Arab Emirates T20I Series 2025,T20I,2025,2025-05-19,T20I,True,included,included
+43057,2725,IPL 2025,T20,2025,2025-05-24,IPL,True,included,included
+43171,2975,Bangladesh in United Arab Emirates T20I Series 2025,T20I,2025,2025-05-21,T20I,True,included,included
+43592,3020,Bangladesh in Sri Lanka T20I Series 2025,T20I,2025,2025-07-10,T20I,True,included,included
+43594,3020,Bangladesh in Sri Lanka T20I Series 2025,T20I,2025,2025-07-13,T20I,True,included,included
+43595,3020,Bangladesh in Sri Lanka T20I Series 2025,T20I,2025,2025-07-16,T20I,True,included,included
+44265,3074,Pakistan in Bangladesh T20I Series 2025,T20I,2025,2025-07-20,T20I,True,included,included
+44266,3074,Pakistan in Bangladesh T20I Series 2025,T20I,2025,2025-07-22,T20I,True,included,included
+44267,3074,Pakistan in Bangladesh T20I Series 2025,T20I,2025,2025-07-24,T20I,True,included,included
+45390,3126,India in England T20I Series 2026,T20I,2026,2026-07-01,T20I,True,included,included
+45391,3126,India in England T20I Series 2026,T20I,2026,2026-07-04,T20I,True,included,included
+45392,3126,India in England T20I Series 2026,T20I,2026,2026-07-07,T20I,True,included,included
+45393,3126,India in England T20I Series 2026,T20I,2026,2026-07-09,T20I,True,included,included
+45394,3126,India in England T20I Series 2026,T20I,2026,2026-07-11,T20I,True,included,included
+45489,3128,Sri Lanka in England T20I Series 2026,T20I,2026,2026-09-15,T20I,True,included,included
+45490,3128,Sri Lanka in England T20I Series 2026,T20I,2026,2026-09-17,T20I,True,included,included
+45491,3128,Sri Lanka in England T20I Series 2026,T20I,2026,2026-09-19,T20I,True,included,included
+45495,3133,Asia Cup 2025,T20I,2025,2025-09-09,T20I,True,included,included
+45496,3133,Asia Cup 2025,T20I,2025,2025-09-10,T20I,True,included,included
+45497,3133,Asia Cup 2025,T20I,2025,2025-09-11,T20I,True,included,included
+45498,3133,Asia Cup 2025,T20I,2025,2025-09-12,T20I,True,included,included
+45499,3133,Asia Cup 2025,T20I,2025,2025-09-13,T20I,True,included,included
+45500,3133,Asia Cup 2025,T20I,2025,2025-09-14,T20I,True,included,included
+45501,3133,Asia Cup 2025,T20I,2025,2025-09-15,T20I,True,included,included
+45502,3133,Asia Cup 2025,T20I,2025,2025-09-15,T20I,True,included,included
+45503,3133,Asia Cup 2025,T20I,2025,2025-09-16,T20I,True,included,included
+45504,3133,Asia Cup 2025,T20I,2025,2025-09-17,T20I,True,included,included
+45505,3133,Asia Cup 2025,T20I,2025,2025-09-18,T20I,True,included,included
+45506,3133,Asia Cup 2025,T20I,2025,2025-09-19,T20I,True,included,included
+45507,3133,Asia Cup 2025,T20I,2025,2025-09-20,T20I,True,included,included
+45508,3133,Asia Cup 2025,T20I,2025,2025-09-21,T20I,True,included,included
+45509,3133,Asia Cup 2025,T20I,2025,2025-09-23,T20I,True,included,included
+45510,3133,Asia Cup 2025,T20I,2025,2025-09-24,T20I,True,included,included
+45511,3133,Asia Cup 2025,T20I,2025,2025-09-25,T20I,True,included,included
+45512,3133,Asia Cup 2025,T20I,2025,2025-09-26,T20I,True,included,included
+45513,3133,Asia Cup 2025,T20I,2025,2025-09-28,T20I,True,included,included
+45851,3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,2025-08-29,T20I,True,included,included
+45852,3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,2025-08-30,T20I,True,included,included
+45853,3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,2025-09-01,T20I,True,included,included
+45854,3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,2025-09-02,T20I,True,included,included
+45855,3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,2025-09-04,T20I,True,included,included
+45856,3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,2025-09-05,T20I,True,included,included
+45857,3159,United Arab Emirates T20I Tri-Series 2025,T20I,2025,2025-09-07,T20I,True,included,included
+45903,3162,Sri Lanka in Zimbabwe T20I Series 2025,T20I,2025,2025-09-03,T20I,True,included,included
+45904,3162,Sri Lanka in Zimbabwe T20I Series 2025,T20I,2025,2025-09-06,T20I,True,included,included
+45905,3162,Sri Lanka in Zimbabwe T20I Series 2025,T20I,2025,2025-09-07,T20I,True,included,included
+45906,3163,Netherlands in Bangladesh T20I Series 2025,T20I,2025,2025-08-30,T20I,True,included,included
+45907,3163,Netherlands in Bangladesh T20I Series 2025,T20I,2025,2025-09-01,T20I,True,included,included
+45908,3163,Netherlands in Bangladesh T20I Series 2025,T20I,2025,2025-09-03,T20I,True,included,included
+46007,3174,England in Ireland T20I series 2025,T20I,2025,2025-09-17,T20I,True,included,included
+46008,3174,England in Ireland T20I series 2025,T20I,2025,2025-09-19,T20I,False,excluded,eligible_match_without_deliveries
+46009,3174,England in Ireland T20I series 2025,T20I,2025,2025-09-21,T20I,True,included,included
+46249,3190,Nepal v West Indies T20I Series 2025,T20I,2025,2025-09-27,T20I,True,included,included
+46250,3190,Nepal v West Indies T20I Series 2025,T20I,2025,2025-09-28,T20I,True,included,included
+46251,3190,Nepal v West Indies T20I Series 2025,T20I,2025,2025-09-30,T20I,True,included,included
+46310,3197,Australia in New Zealand T20I Series 2025,T20I,2025,2025-10-01,T20I,True,included,included
+46311,3197,Australia in New Zealand T20I Series 2025,T20I,2025,2025-10-03,T20I,True,included,included
+46312,3197,Australia in New Zealand T20I Series 2025,T20I,2025,2025-10-04,T20I,True,included,included
+46740,3223,South Africa in Pakistan T20I Series 2025,T20I,2025,2025-10-28,T20I,True,included,included
+46741,3223,South Africa in Pakistan T20I Series 2025,T20I,2025,2025-10-31,T20I,True,included,included
+46742,3223,South Africa in Pakistan T20I Series 2025,T20I,2025,2025-11-01,T20I,True,included,included
+46747,3226,England in New Zealand T20I Series 2025,T20I,2025,2025-10-18,T20I,True,included,included
+46748,3226,England in New Zealand T20I Series 2025,T20I,2025,2025-10-20,T20I,True,included,included
+46749,3226,England in New Zealand T20I Series 2025,T20I,2025,2025-10-23,T20I,True,included,included
+46753,3228,Afghanistan v Bangladesh T20I Series 2025,T20I,2025,2025-10-02,T20I,True,included,included
+46754,3228,Afghanistan v Bangladesh T20I Series 2025,T20I,2025,2025-10-03,T20I,True,included,included
+46755,3228,Afghanistan v Bangladesh T20I Series 2025,T20I,2025,2025-10-05,T20I,True,included,included
+46940,3241,West Indies in Bangladesh T20I Series 2025,T20I,2025,2025-10-27,T20I,True,included,included
+46941,3241,West Indies in Bangladesh T20I Series 2025,T20I,2025,2025-10-30,T20I,True,included,included
+46942,3241,West Indies in Bangladesh T20I Series 2025,T20I,2025,2025-11-01,T20I,True,included,included
+47241,3251,Ireland in Bangladesh T20I Series 2025,T20I,2025,2025-11-27,T20I,True,included,included
+47242,3251,Ireland in Bangladesh T20I Series 2025,T20I,2025,2025-11-29,T20I,True,included,included
+47243,3251,Ireland in Bangladesh T20I Series 2025,T20I,2025,2025-12-02,T20I,True,included,included
+47260,3254,Afghanistan in Zimbabwe T20I Series 2025,T20I,2025,2025-10-29,T20I,True,included,included
+47261,3254,Afghanistan in Zimbabwe T20I Series 2025,T20I,2025,2025-10-31,T20I,True,included,included
+47262,3254,Afghanistan in Zimbabwe T20I Series 2025,T20I,2025,2025-11-02,T20I,True,included,included
+47965,3282,West Indies in New Zealand T20I Series 2025,T20I,2025,2025-11-05,T20I,True,included,included
+47966,3282,West Indies in New Zealand T20I Series 2025,T20I,2025,2025-11-06,T20I,True,included,included
+47967,3282,West Indies in New Zealand T20I Series 2025,T20I,2025,2025-11-09,T20I,True,included,included
+47968,3282,West Indies in New Zealand T20I Series 2025,T20I,2025,2025-11-10,T20I,True,included,included
+47969,3282,West Indies in New Zealand T20I Series 2025,T20I,2025,2025-11-13,T20I,True,included,included
+47976,3288,Pakistan T20I Tri-Series 2025,T20I,2025,2025-11-17,T20I,True,included,included
+47977,3288,Pakistan T20I Tri-Series 2025,T20I,2025,2025-11-19,T20I,True,included,included
+47978,3288,Pakistan T20I Tri-Series 2025,T20I,2025,2025-11-22,T20I,True,included,included
+47979,3288,Pakistan T20I Tri-Series 2025,T20I,2025,2025-11-23,T20I,True,included,included
+47980,3288,Pakistan T20I Tri-Series 2025,T20I,2025,2025-11-25,T20I,True,included,included
+47981,3288,Pakistan T20I Tri-Series 2025,T20I,2025,2025-11-27,T20I,True,included,included
+47982,3288,Pakistan T20I Tri-Series 2025,T20I,2025,2025-11-29,T20I,True,included,included
+48015,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-14,,True,excluded,outside_IPL_T20I_scope
+48016,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-14,,True,excluded,outside_IPL_T20I_scope
+48017,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-15,,True,excluded,outside_IPL_T20I_scope
+48018,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-15,,True,excluded,outside_IPL_T20I_scope
+48019,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-16,,True,excluded,outside_IPL_T20I_scope
+48020,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-16,,True,excluded,outside_IPL_T20I_scope
+48021,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-17,,True,excluded,outside_IPL_T20I_scope
+48022,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-17,,True,excluded,outside_IPL_T20I_scope
+48023,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-18,,True,excluded,outside_IPL_T20I_scope
+48024,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-18,,True,excluded,outside_IPL_T20I_scope
+48025,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-19,,True,excluded,outside_IPL_T20I_scope
+48026,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-19,,True,excluded,outside_IPL_T20I_scope
+48027,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-21,,True,excluded,outside_IPL_T20I_scope
+48028,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-21,,True,excluded,outside_IPL_T20I_scope
+48029,3289,Asia Cup Rising Stars 2025,T20,2025,2025-11-23,,True,excluded,outside_IPL_T20I_scope
+48466,3313,Ireland in United Arab Emirates T20I Series 2026,T20I,2026,2026-01-29,T20I,True,included,included
+48467,3313,Ireland in United Arab Emirates T20I Series 2026,T20I,2026,2026-01-31,T20I,True,included,included
+48512,3317,Pakistan in Sri Lanka T20I Series 2026,T20I,2026,2026-01-07,T20I,True,included,included
+48513,3317,Pakistan in Sri Lanka T20I Series 2026,T20I,2026,2026-01-10,T20I,False,excluded,eligible_match_without_deliveries
+48514,3317,Pakistan in Sri Lanka T20I Series 2026,T20I,2026,2026-01-12,T20I,True,included,included
+48591,3329,New Zealand in India T20I Series 2026,T20I,2026,2026-01-21,T20I,True,included,included
+48592,3329,New Zealand in India T20I Series 2026,T20I,2026,2026-01-23,T20I,True,included,included
+48593,3329,New Zealand in India T20I Series 2026,T20I,2026,2026-01-25,T20I,True,included,included
+48594,3329,New Zealand in India T20I Series 2026,T20I,2026,2026-01-28,T20I,True,included,included
+48595,3329,New Zealand in India T20I Series 2026,T20I,2026,2026-01-31,T20I,True,included,included
+48596,3331,Afghanistan v West Indies T20I Series 2026,T20I,2026,2026-01-19,T20I,True,included,included
+48597,3331,Afghanistan v West Indies T20I Series 2026,T20I,2026,2026-01-21,T20I,True,included,included
+48598,3331,Afghanistan v West Indies T20I Series 2026,T20I,2026,2026-01-22,T20I,True,included,included
+48610,3334,England in Sri Lanka T20I Series 2026,T20I,2026,2026-01-30,T20I,True,included,included
+48611,3334,England in Sri Lanka T20I Series 2026,T20I,2026,2026-02-01,T20I,True,included,included
+48612,3334,England in Sri Lanka T20I Series 2026,T20I,2026,2026-02-03,T20I,True,included,included
+48915,3358,Australia in Pakistan T20I Series 2026,T20I,2026,2026-01-29,T20I,True,included,included
+48916,3358,Australia in Pakistan T20I Series 2026,T20I,2026,2026-01-31,T20I,True,included,included
+48917,3358,Australia in Pakistan T20I Series 2026,T20I,2026,2026-02-01,T20I,True,included,included
+49736,3395,South Africa in New Zealand T20I Series 2026,T20I,2026,2026-03-15,T20I,True,included,included
+49737,3395,South Africa in New Zealand T20I Series 2026,T20I,2026,2026-03-17,T20I,True,included,included
+49738,3395,South Africa in New Zealand T20I Series 2026,T20I,2026,2026-03-20,T20I,True,included,included
+49739,3395,South Africa in New Zealand T20I Series 2026,T20I,2026,2026-03-22,T20I,True,included,included
+49740,3395,South Africa in New Zealand T20I Series 2026,T20I,2026,2026-03-25,T20I,True,included,included
+50125,3298,IPL 2026,T20,2026,2026-03-28,IPL,True,included,included
+50126,3298,IPL 2026,T20,2026,2026-03-29,IPL,True,included,included
+50127,3298,IPL 2026,T20,2026,2026-03-30,IPL,True,included,included
+50128,3298,IPL 2026,T20,2026,2026-03-31,IPL,True,included,included
+50129,3298,IPL 2026,T20,2026,2026-04-01,IPL,True,included,included
+50130,3298,IPL 2026,T20,2026,2026-04-02,IPL,True,included,included
+50131,3298,IPL 2026,T20,2026,2026-04-03,IPL,True,included,included
+50132,3298,IPL 2026,T20,2026,2026-04-04,IPL,True,included,included
+50133,3298,IPL 2026,T20,2026,2026-04-04,IPL,True,included,included
+50134,3298,IPL 2026,T20,2026,2026-04-05,IPL,True,included,included
+50135,3298,IPL 2026,T20,2026,2026-04-05,IPL,True,included,included
+50136,3298,IPL 2026,T20,2026,2026-04-06,IPL,True,included,included
+50137,3298,IPL 2026,T20,2026,2026-04-07,IPL,True,included,included
+50138,3298,IPL 2026,T20,2026,2026-04-08,IPL,True,included,included
+50139,3298,IPL 2026,T20,2026,2026-04-09,IPL,True,included,included
+50140,3298,IPL 2026,T20,2026,2026-04-10,IPL,True,included,included
+50141,3298,IPL 2026,T20,2026,2026-04-11,IPL,True,included,included
+50142,3298,IPL 2026,T20,2026,2026-04-11,IPL,True,included,included
+50143,3298,IPL 2026,T20,2026,2026-04-12,IPL,True,included,included
+50144,3298,IPL 2026,T20,2026,2026-04-12,IPL,True,included,included
+50188,3433,New Zealand in Bangladesh T20I Series 2026,T20I,2026,2026-04-27,T20I,True,included,included
+50189,3433,New Zealand in Bangladesh T20I Series 2026,T20I,2026,2026-04-29,T20I,False,excluded,eligible_match_without_deliveries
+50190,3433,New Zealand in Bangladesh T20I Series 2026,T20I,2026,2026-05-02,T20I,True,included,included
+50340,3446,India in Ireland T20I Series 2026,T20I,2026,2026-06-26,T20I,True,included,included
+50341,3446,India in Ireland T20I Series 2026,T20I,2026,2026-06-28,T20I,True,included,included
+50342,3298,IPL 2026,T20,2026,2026-04-13,IPL,True,included,included
+50343,3298,IPL 2026,T20,2026,2026-04-14,IPL,True,included,included
+50344,3298,IPL 2026,T20,2026,2026-04-15,IPL,True,included,included
+50345,3298,IPL 2026,T20,2026,2026-04-16,IPL,True,included,included
+50346,3298,IPL 2026,T20,2026,2026-04-17,IPL,True,included,included
+50347,3298,IPL 2026,T20,2026,2026-04-18,IPL,True,included,included
+50348,3298,IPL 2026,T20,2026,2026-04-18,IPL,True,included,included
+50349,3298,IPL 2026,T20,2026,2026-04-19,IPL,True,included,included
+50350,3298,IPL 2026,T20,2026,2026-04-19,IPL,True,included,included
+50351,3298,IPL 2026,T20,2026,2026-04-20,IPL,True,included,included
+50352,3298,IPL 2026,T20,2026,2026-04-21,IPL,True,included,included
+50353,3298,IPL 2026,T20,2026,2026-04-22,IPL,True,included,included
+50354,3298,IPL 2026,T20,2026,2026-04-23,IPL,True,included,included
+50355,3298,IPL 2026,T20,2026,2026-04-24,IPL,True,included,included
+50356,3298,IPL 2026,T20,2026,2026-04-25,IPL,True,included,included
+50357,3298,IPL 2026,T20,2026,2026-04-25,IPL,True,included,included
+50358,3298,IPL 2026,T20,2026,2026-04-26,IPL,True,included,included
+50359,3298,IPL 2026,T20,2026,2026-04-26,IPL,True,included,included
+50360,3298,IPL 2026,T20,2026,2026-04-27,IPL,True,included,included
+50361,3298,IPL 2026,T20,2026,2026-04-28,IPL,True,included,included
+50362,3298,IPL 2026,T20,2026,2026-04-29,IPL,True,included,included
+50363,3298,IPL 2026,T20,2026,2026-04-30,IPL,True,included,included
+50364,3298,IPL 2026,T20,2026,2026-05-01,IPL,True,included,included
+50365,3298,IPL 2026,T20,2026,2026-05-02,IPL,True,included,included
+50366,3298,IPL 2026,T20,2026,2026-05-03,IPL,True,included,included
+50367,3298,IPL 2026,T20,2026,2026-05-03,IPL,True,included,included
+50368,3298,IPL 2026,T20,2026,2026-05-04,IPL,True,included,included
+50369,3298,IPL 2026,T20,2026,2026-05-05,IPL,True,included,included
+50370,3298,IPL 2026,T20,2026,2026-05-06,IPL,True,included,included
+50371,3298,IPL 2026,T20,2026,2026-05-07,IPL,True,included,included
+50372,3298,IPL 2026,T20,2026,2026-05-08,IPL,True,included,included
+50373,3298,IPL 2026,T20,2026,2026-05-09,IPL,True,included,included
+50374,3298,IPL 2026,T20,2026,2026-05-10,IPL,True,included,included
+50375,3298,IPL 2026,T20,2026,2026-05-10,IPL,True,included,included
+50376,3298,IPL 2026,T20,2026,2026-05-11,IPL,True,included,included
+50377,3298,IPL 2026,T20,2026,2026-05-12,IPL,True,included,included
+50378,3298,IPL 2026,T20,2026,2026-05-13,IPL,True,included,included
+50379,3298,IPL 2026,T20,2026,2026-05-14,IPL,True,included,included
+50380,3298,IPL 2026,T20,2026,2026-05-15,IPL,True,included,included
+50381,3298,IPL 2026,T20,2026,2026-05-16,IPL,True,included,included
+50382,3298,IPL 2026,T20,2026,2026-05-17,IPL,True,included,included
+50383,3298,IPL 2026,T20,2026,2026-05-17,IPL,True,included,included
+50384,3298,IPL 2026,T20,2026,2026-05-18,IPL,True,included,included
+50385,3298,IPL 2026,T20,2026,2026-05-19,IPL,True,included,included
+50386,3298,IPL 2026,T20,2026,2026-05-20,IPL,True,included,included
+50387,3298,IPL 2026,T20,2026,2026-05-21,IPL,True,included,included
+50388,3298,IPL 2026,T20,2026,2026-05-22,IPL,True,included,included
+50389,3298,IPL 2026,T20,2026,2026-05-23,IPL,True,included,included
+50390,3298,IPL 2026,T20,2026,2026-05-24,IPL,True,included,included
+50391,3298,IPL 2026,T20,2026,2026-05-24,IPL,True,included,included
+50404,3450,West Indies in India T20I Series 2026,T20I,2026,2026-10-06,T20I,True,included,included
+50405,3450,West Indies in India T20I Series 2026,T20I,2026,2026-10-09,T20I,True,included,included
+50406,3450,West Indies in India T20I Series 2026,T20I,2026,2026-10-11,T20I,True,included,included
+50407,3450,West Indies in India T20I Series 2026,T20I,2026,2026-10-14,T20I,True,included,included
+50408,3450,West Indies in India T20I Series 2026,T20I,2026,2026-10-17,T20I,True,included,included
+50503,3464,Sri Lanka in West Indies T20I Series 2026,T20I,2026,2026-06-12,T20I,True,included,included
+50504,3464,Sri Lanka in West Indies T20I Series 2026,T20I,2026,2026-06-14,T20I,True,included,included
+50505,3464,Sri Lanka in West Indies T20I Series 2026,T20I,2026,2026-06-15,T20I,True,included,included
+50507,3465,India in Zimbabwe T20I Series 2026,T20I,2026,2026-07-23,T20I,True,included,included
+50508,3465,India in Zimbabwe T20I Series 2026,T20I,2026,2026-07-25,T20I,True,included,included
+50509,3465,India in Zimbabwe T20I Series 2026,T20I,2026,2026-07-26,T20I,True,included,included
+50597,3482,Australia in Bangladesh T20I Series 2026,T20I,2026,2026-06-17,T20I,True,included,included
+50598,3482,Australia in Bangladesh T20I Series 2026,T20I,2026,2026-06-19,T20I,True,included,included
+50599,3482,Australia in Bangladesh T20I Series 2026,T20I,2026,2026-06-21,T20I,True,included,included
+50942,3298,IPL 2026,T20,2026,2026-05-26,IPL,True,included,included
+50943,3298,IPL 2026,T20,2026,2026-05-27,IPL,True,included,included
+50944,3298,IPL 2026,T20,2026,2026-05-29,IPL,True,included,included
+50945,3298,IPL 2026,T20,2026,2026-05-31,IPL,True,included,included
+51383,3568,Bangladesh in Zimbabwe T20I Series 2026,T20I,2026,2026-07-15,T20I,True,included,included
+51384,3568,Bangladesh in Zimbabwe T20I Series 2026,T20I,2026,2026-07-17,T20I,True,included,included
+51385,3568,Bangladesh in Zimbabwe T20I Series 2026,T20I,2026,2026-07-19,T20I,True,included,included
+54210,3690,India in New Zealand T20I Series 2026,T20I,2026,2026-10-22,T20I,True,included,included
+54211,3690,India in New Zealand T20I Series 2026,T20I,2026,2026-10-24,T20I,True,included,included
+54212,3690,India in New Zealand T20I Series 2026,T20I,2026,2026-10-27,T20I,True,included,included
+54213,3690,India in New Zealand T20I Series 2026,T20I,2026,2026-10-30,T20I,True,included,included
+54214,3690,India in New Zealand T20I Series 2026,T20I,2026,2026-11-01,T20I,True,included,included
+54408,3713,Afghanistan vs India in India T20I Series 2026,T20I,2026,2026-09-13,T20I,True,included,included
+54409,3713,Afghanistan vs India in India T20I Series 2026,T20I,2026,2026-09-15,T20I,True,included,included
+54410,3713,Afghanistan vs India in India T20I Series 2026,T20I,2026,2026-09-17,T20I,True,included,included
+54711,3739,India in Japan T20I Match 2026,T20I,2026,2026-09-22,T20I,True,included,included
+55078,3765,Sri Lanka in Pakistan T20I Series 2026,T20I,2026,2026-10-09,T20I,True,included,included
+55079,3765,Sri Lanka in Pakistan T20I Series 2026,T20I,2026,2026-10-11,T20I,True,included,included
+55080,3765,Sri Lanka in Pakistan T20I Series 2026,T20I,2026,2026-10-13,T20I,True,included,included
+55559,3787,Afghanistan v Zimbabwe T20I Series 2026,T20I,2026,2026-10-27,T20I,True,included,included
+55560,3787,Afghanistan v Zimbabwe T20I Series 2026,T20I,2026,2026-10-29,T20I,True,included,included
+55561,3787,Afghanistan v Zimbabwe T20I Series 2026,T20I,2026,2026-11-01,T20I,True,included,included

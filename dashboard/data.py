@@ -1,307 +1,211 @@
-"""Deterministic synthetic data for the public ROYAL SCOUT demo."""
+"""Authoritative CSV loading, ownership checks, and presentation-only selectors."""
 from __future__ import annotations
 
 from dataclasses import dataclass
-import random
+import hashlib
+import json
+from pathlib import Path
 
 import pandas as pd
 
 
-SCOPES = ["Demo League A", "Demo League B"]
+ROOT = Path(__file__).resolve().parents[1]
+TABLES = {
+    "matches": "data/processed/phase3/pressure_match_coverage.csv",
+    "excluded_matches": "data/processed/phase2b/excluded_matches.csv",
+    "batting_rankings": "data/processed/phase5/batting_rankings.csv",
+    "bowling_rankings": "data/processed/phase5/bowling_rankings.csv",
+    "batting_evaluation": "data/processed/phase5/batting_player_evaluation.csv",
+    "bowling_evaluation": "data/processed/phase5/bowling_player_evaluation.csv",
+    "intervals": "data/processed/phase4_v4/player_interval_details.csv",
+    "competition_context": "data/processed/phase4_v4/competition_context_metrics.csv",
+    "metric_quality": "data/processed/phase4_v4/metric_quality_summary.csv",
+    "history": "data/processed/phase5/historical_consistency.csv",
+    "ranking_sensitivity": "data/processed/phase5/ranking_sensitivity.csv",
+    "definitions": "data/processed/phase5b/alternative_pressure_definitions.csv",
+    "stability": "data/processed/phase5b/player_overall_stability.csv",
+    "metric_stability": "data/processed/phase5b/player_metric_stability.csv",
+    "alternative_comparison": "data/processed/phase5b/primary_vs_alternative_comparison.csv",
+}
+REQUIRED = {
+    "matches": {"match_id", "competition_type", "primary_eligible_events", "batting_pressure_events", "bowling_pressure_events"},
+    "excluded_matches": {"match_id", "status", "reason"},
+    "batting_rankings": {"rank", "player_id", "player_name", "competition_scope", "composite_score", "pressure_events", "reference_events"},
+    "bowling_rankings": {"rank", "player_id", "player_name", "competition_scope", "composite_score", "pressure_events", "reference_events"},
+    "batting_evaluation": {"player_id", "player_name", "competition_scope", "primary_eligible", "pressure_events", "reference_events"},
+    "bowling_evaluation": {"player_id", "player_name", "competition_scope", "primary_eligible", "pressure_events", "reference_events"},
+    "intervals": {"role", "player_id", "competition_scope", "metric_name", "interval_low", "interval_high", "interval_status"},
+    "competition_context": {"role", "competition_type", "pressure_label", "observed_events"},
+    "metric_quality": {"role", "competition_type", "pressure_label", "observed_events"},
+    "history": {"role", "player_id", "competition_scope", "context_type", "context_value"},
+    "ranking_sensitivity": {"role", "variant", "variant_type", "top10_overlap_count"},
+    "definitions": {"role", "variant", "evaluation_status", "changed_labels_on_primary_events"},
+    "stability": {"role", "player_id", "competition_scope", "overall_stability", "primary_top10"},
+    "metric_stability": {"role", "player_id", "competition_scope", "metric_name", "metric_stability"},
+    "alternative_comparison": {"role", "player_id", "competition_scope", "variant", "metric_name", "interval_status", "variant_rank"},
+}
 METRICS = {
     "batting": (
-        ("synthetic_runs_per_event", "Synthetic runs / event", "Higher", "runs/event"),
-        ("synthetic_boundary_rate", "Synthetic boundary rate", "Higher", "event share"),
-        ("synthetic_dismissal_rate", "Synthetic dismissal rate", "Lower", "event share"),
+        ("recorded_batter_runs_per_event", "Recorded batter runs / observed striker event", "Higher", "runs/event"),
+        ("boundary_event_rate", "Valid boundary-flag events / observed striker event", "Higher", "event share"),
+        ("batter_dismissal_event_rate", "Striker-attributed dismissals / observed striker event", "Lower", "event share"),
     ),
     "bowling": (
-        ("synthetic_wicket_rate", "Synthetic wicket rate", "Higher", "event share"),
-        ("synthetic_runs_allowed", "Synthetic runs allowed", "Lower", "runs/event"),
+        ("bowler_credit_wickets_per_event", "Bowler-credit wickets / observed bowler event", "Higher", "event share"),
+        ("recorded_batter_runs_allowed_per_event", "Recorded batter runs allowed / observed bowler event", "Lower", "runs/event"),
     ),
 }
+
+
+class DashboardDataError(RuntimeError):
+    """A required validated artifact is missing or structurally invalid."""
 
 
 @dataclass(frozen=True)
 class Bundle:
     frames: dict[str, pd.DataFrame]
+    manifests: dict[str, dict]
 
     def __getitem__(self, name: str) -> pd.DataFrame:
         return self.frames[name]
 
 
-def _rankings(role: str) -> pd.DataFrame:
-    noun = "Batter" if role == "batting" else "Bowler"
-    rng = random.Random(100 + (1 if role == "bowling" else 0))
-    rows = []
-    for scope_index, scope in enumerate(SCOPES):
-        for rank in range(1, 11):
-            player_id = (scope_index + 1) * 1000 + rank
-            player_name = f"Demo {noun} {rank:02d}"
-            pressure_events = 420 + rng.randint(-90, 180)
-            reference_events = 520 + rng.randint(-100, 200)
-            row = {
-                "rank": rank,
-                "player_id": player_id,
-                "player_name": player_name,
-                "competition_scope": scope,
-                "composite_score": round(0.92 - (rank - 1) * 0.035 - scope_index * 0.015 + rng.random() * 0.012, 4),
-                "pressure_events": pressure_events,
-                "reference_events": reference_events,
-                "pressure_matches": 18 + rng.randint(-3, 5),
-                "reference_matches": 24 + rng.randint(-4, 6),
-                "primary_eligible": True,
-            }
-            if role == "batting":
-                pressure = 1.18 + rng.random() * 0.42
-                reference = 1.05 + rng.random() * 0.38
-                boundary_pressure = 0.125 + rng.random() * 0.04
-                boundary_reference = 0.115 + rng.random() * 0.035
-                dismissal_pressure = 0.052 + rng.random() * 0.018
-                dismissal_reference = 0.061 + rng.random() * 0.018
-                row.update({
-                    "synthetic_runs_per_event_value_pressure": round(pressure, 4),
-                    "synthetic_runs_per_event_value_reference": round(reference, 4),
-                    "synthetic_runs_per_event_difference_pressure_minus_reference": round(pressure-reference, 4),
-                    "synthetic_boundary_rate_value_pressure": round(boundary_pressure, 4),
-                    "synthetic_boundary_rate_value_reference": round(boundary_reference, 4),
-                    "synthetic_boundary_rate_difference_pressure_minus_reference": round(boundary_pressure-boundary_reference, 4),
-                    "synthetic_dismissal_rate_value_pressure": round(dismissal_pressure, 4),
-                    "synthetic_dismissal_rate_value_reference": round(dismissal_reference, 4),
-                    "synthetic_dismissal_rate_difference_pressure_minus_reference": round(dismissal_pressure-dismissal_reference, 4),
-                })
-            else:
-                wicket_pressure = 0.105 + rng.random() * 0.035
-                wicket_reference = 0.088 + rng.random() * 0.03
-                allowed_pressure = 0.82 + rng.random() * 0.22
-                allowed_reference = 0.88 + rng.random() * 0.23
-                row.update({
-                    "synthetic_wicket_rate_value_pressure": round(wicket_pressure, 4),
-                    "synthetic_wicket_rate_value_reference": round(wicket_reference, 4),
-                    "synthetic_wicket_rate_difference_pressure_minus_reference": round(wicket_pressure-wicket_reference, 4),
-                    "synthetic_runs_allowed_value_pressure": round(allowed_pressure, 4),
-                    "synthetic_runs_allowed_value_reference": round(allowed_reference, 4),
-                    "synthetic_runs_allowed_difference_pressure_minus_reference": round(allowed_reference-allowed_pressure, 4),
-                })
-            rows.append(row)
-    return pd.DataFrame(rows)
-
-
-def load_synthetic_bundle() -> Bundle:
-    """Generate stable synthetic records; no filesystem or private-data access."""
-    rng = random.Random(2026)
-    batting = _rankings("batting")
-    bowling = _rankings("bowling")
-
-    evaluation_rows = []
-    interval_rows = []
-    history_rows = []
-    for role, frame in (("batting", batting), ("bowling", bowling)):
-        for row in frame.itertuples(index=False):
-            player_id = int(row.player_id)
-            evaluation_rows.append({
-                "role": role,
-                "player_id": player_id,
-                "player_name": row.player_name,
-                "competition_scope": row.competition_scope,
-                "primary_eligible": True,
-                "pressure_events": row.pressure_events,
-                "reference_events": row.reference_events,
-                "pressure_matches": row.pressure_matches,
-                "reference_matches": row.reference_matches,
-                "seasons_represented": 3,
-                "opponents_represented": 8,
-                "comparison_status": "synthetic complete",
-                "eligibility_reason": "synthetic demonstration",
-                "metric_quality_caution": "Synthetic example only; no source-quality inference.",
-                **{c: getattr(row, c) for c in row._fields if c not in {"role", "player_id", "player_name", "competition_scope", "primary_eligible", "pressure_events", "reference_events", "pressure_matches", "reference_matches", "rank", "composite_score"}},
-            })
-            for metric, label, _, _ in METRICS[role]:
-                pressure_key = f"{metric}_value_pressure"
-                reference_key = f"{metric}_value_reference"
-                difference_key = f"{metric}_difference_pressure_minus_reference"
-                point = getattr(row, pressure_key) - getattr(row, reference_key)
-                interval_rows.append({
-                    "role": role,
-                    "player_id": player_id,
-                    "competition_scope": row.competition_scope,
-                    "metric_name": metric,
-                    "interval_low": round(point - 0.018 - rng.random() * 0.01, 4),
-                    "interval_high": round(point + 0.018 + rng.random() * 0.01, 4),
-                    "interval_status": "synthetic_exploratory_interval",
-                })
-            for season in ("Demo Season 1", "Demo Season 2", "Demo Season 3"):
-                history_rows.append({
-                    "role": role,
-                    "player_id": player_id,
-                    "competition_scope": row.competition_scope,
-                    "context_type": "season",
-                    "context_value": season,
-                    "events_pressure": 120 + rng.randint(-20, 50),
-                    "events_reference": 150 + rng.randint(-25, 60),
-                    "matches_pressure": 6 + rng.randint(-1, 2),
-                    "matches_reference": 8 + rng.randint(-1, 3),
-                })
-            for opponent in range(1, 5):
-                history_rows.append({
-                    "role": role,
-                    "player_id": player_id,
-                    "competition_scope": row.competition_scope,
-                    "context_type": "opponent",
-                    "context_value": f"Demo Team {opponent:02d}",
-                    "events_pressure": 30 + rng.randint(-8, 15),
-                    "events_reference": 40 + rng.randint(-8, 18),
-                    "matches_pressure": 3 + rng.randint(-1, 2),
-                    "matches_reference": 5 + rng.randint(-1, 2),
-                })
-
-    matches = pd.DataFrame([
-        {"match_id": i + 1, "competition_type": scope, "primary_eligible_events": 480 + rng.randint(-80, 120),
-         "batting_pressure_events": 130 + rng.randint(-20, 35),
-         "bowling_pressure_events": 140 + rng.randint(-20, 35)}
-        for scope in SCOPES for i in range(12)
-    ])
-
-    excluded = pd.DataFrame([
-        {"match_id": 101, "status": "synthetic excluded", "reason": "Demonstration placeholder"},
-        {"match_id": 102, "status": "synthetic excluded", "reason": "Demonstration placeholder"},
-    ])
-
-    variants = []
-    for role in ("batting", "bowling"):
-        for i in range(1, 10):
-            variants.append({
-                "role": role,
-                "variant": f"Synthetic definition {i}",
-                "evaluation_status": "tested",
-                "definition": f"Demonstration threshold variant {i}",
-                "changed_labels_on_primary_events": round(0.02 * i, 3),
-            })
-    stability_rows = []
-    alternative_rows = []
-    for role, frame in (("batting", batting), ("bowling", bowling)):
-        for row in frame.itertuples(index=False):
-            stability_rows.append({
-                "role": role,
-                "player_id": row.player_id,
-                "player_name": row.player_name,
-                "competition_scope": row.competition_scope,
-                "overall_stability": "synthetic stable" if row.rank <= 7 else "synthetic sensitive",
-                "primary_top10": True,
-                "primary_global_rank": row.rank,
-                "sensitive_metrics": "1" if row.rank > 7 else "0",
-                "insufficient_metrics": "0",
-            })
-            for variant_index in range(1, 10):
-                for metric, _, _, _ in METRICS[role]:
-                    alternative_rows.append({
-                        "role": role,
-                        "player_id": row.player_id,
-                        "player_name": row.player_name,
-                        "competition_scope": row.competition_scope,
-                        "variant": f"Synthetic definition {variant_index}",
-                        "metric_name": metric,
-                        "primary_top10": True,
-                        "interval_status": "synthetic_exploratory_interval",
-                        "interval_low": -0.02,
-                        "interval_high": 0.06,
-                        "primary_point_difference_pressure_minus_reference": 0.04,
-                        "point_difference_pressure_minus_reference": round(0.025 + variant_index * 0.002, 4),
-                        "pressure_events": row.pressure_events,
-                        "reference_events": row.reference_events,
-                        "rank_shift_variant_minus_primary": (variant_index % 3) - 1,
-                        "metric_variant_stability": "synthetic stable",
-                        "variant_rank": max(1, row.rank + ((variant_index % 3) - 1)),
-                    })
-
-    frames = {
-        "batting_rankings": batting,
-        "bowling_rankings": bowling,
-        "batting_evaluation": pd.DataFrame([r for r in evaluation_rows if r["role"] == "batting"]),
-        "bowling_evaluation": pd.DataFrame([r for r in evaluation_rows if r["role"] == "bowling"]),
-        "matches": matches,
-        "excluded_matches": excluded,
-        "intervals": pd.DataFrame(interval_rows),
-        "history": pd.DataFrame(history_rows),
-        "definitions": pd.DataFrame(variants),
-        "stability": pd.DataFrame(stability_rows),
-        "alternative_comparison": pd.DataFrame(alternative_rows),
-        "metric_quality": pd.DataFrame([
-            {"role": role, "competition_type": scope, "pressure_label": label,
-             "observed_events": 40 + index * 13,
-             "caution": "Synthetic placeholder"}
-            for index, role in enumerate(("batting", "bowling"))
-            for scope in SCOPES
-            for label in ("pressure", "reference")
-        ]),
-        "competition_context": pd.DataFrame([
-            {"role": role, "competition_type": scope, "pressure_label": label,
-             "synthetic_runs_per_event_value": 1.1 + role_index * 0.1 + scope_index * 0.05,
-             "synthetic_wicket_rate_value": 0.09 + role_index * 0.01 + scope_index * 0.008,
-             "synthetic_runs_allowed_value": 0.9 - scope_index * 0.04,
-             "observed_events": 100 + 25 * scope_index}
-            for role_index, role in enumerate(("batting", "bowling"))
-            for scope_index, scope in enumerate(SCOPES)
-            for label in ("pressure", "reference")
-        ]),
+def _manifest_map(root: Path) -> tuple[dict[str, str], dict[str, dict]]:
+    paths = {
+        "phase5": root / "data/processed/phase5/phase5_output_manifest.json",
+        "phase5b": root / "data/processed/phase5b/phase5b_output_manifest.json",
+        "phase4_v4": root / "data/processed/phase4_v4/phase4_output_manifest.json",
     }
-    return Bundle(frames)
+    manifests = {}
+    hashes = {}
+    for phase, path in paths.items():
+        if not path.is_file():
+            raise DashboardDataError(f"Missing {phase} manifest: {path}")
+        manifests[phase] = json.loads(path.read_text(encoding="utf-8"))
+        for item in manifests[phase]["outputs"]:
+            hashes[f"data/processed/{phase}/{item['filename']}"] = item["sha256"]
+    hashes.update(manifests["phase5b"]["protected_hashes"])
+    return hashes, manifests
+
+
+def load_bundle(root: Path = ROOT, *, verify_hashes: bool = True) -> Bundle:
+    """Read files only; never compute or rewrite any analytical output."""
+    root = Path(root)
+    hashes, manifests = _manifest_map(root)
+    frames = {}
+    for name, relative in TABLES.items():
+        path = root / relative
+        if not path.is_file():
+            raise DashboardDataError(f"Missing required {name} output: {path}")
+        if verify_hashes:
+            expected = hashes.get(relative)
+            if expected is None:
+                raise DashboardDataError(f"No manifest SHA-256 for {relative}")
+            actual = hashlib.sha256(path.read_bytes()).hexdigest()
+            if actual != expected:
+                raise DashboardDataError(f"Validated output hash mismatch: {relative}")
+        frame = pd.read_csv(path, low_memory=False)
+        missing = REQUIRED[name] - set(frame.columns)
+        if missing:
+            raise DashboardDataError(f"{relative} lacks columns: {sorted(missing)}")
+        frames[name] = frame
+    for role in ("batting", "bowling"):
+        ranked = frames[f"{role}_rankings"]
+        if ranked.player_id.duplicated().any() or ranked["rank"].duplicated().any() or not ranked.competition_scope.isin(["IPL", "T20I"]).all():
+            raise DashboardDataError(f"Invalid authoritative {role} rankings")
+        if not ranked.primary_eligible.all():
+            raise DashboardDataError(f"Ineligible player in authoritative {role} rankings")
+    return Bundle(frames, manifests)
 
 
 def filter_rankings(frame: pd.DataFrame, competition: str = "All", player_ids: list[int] | None = None,
                     rank_range: tuple[int, int] | None = None) -> pd.DataFrame:
     out = frame.copy()
     if competition != "All":
+        if competition not in ("IPL", "T20I"):
+            raise ValueError("competition must be All, IPL or T20I")
         out = out[out.competition_scope.eq(competition)]
-    if player_ids:
+    if player_ids is not None:
         out = out[out.player_id.isin(player_ids)]
-    if rank_range:
+    if rank_range is not None:
         out = out[out["rank"].between(*rank_range)]
-    return out.sort_values(["competition_scope", "rank"]).reset_index(drop=True)
+    return out.sort_values("rank").reset_index(drop=True)
 
 
 def select_player(frame: pd.DataFrame, player_id: int, scope: str) -> pd.Series | None:
-    found = frame[(frame.player_id == player_id) & (frame.competition_scope == scope)]
+    found = frame[frame.player_id.eq(player_id) & frame.competition_scope.eq(scope)]
+    if len(found) > 1:
+        raise DashboardDataError("Duplicate player and competition scope")
     return found.iloc[0] if len(found) else None
 
 
-def profile_metrics(row: pd.Series, intervals: pd.DataFrame, role: str) -> pd.DataFrame:
+def interval_interpretation(status: str, low: object, high: object) -> str:
+    if status != "exploratory_match_cluster_interval" or pd.isna(low) or pd.isna(high):
+        return "Uncertainty interval unavailable; this is not a zero result."
+    if float(low) <= 0 <= float(high):
+        return "Exploratory interval includes zero; direction remains uncertain."
+    return "Exploratory interval excludes zero; association is still non-causal."
+
+
+def profile_metrics(row: pd.Series, interval_frame: pd.DataFrame, role: str) -> pd.DataFrame:
+    """Present authoritative Phase 5 point values and Phase 4 v4 intervals only."""
+    details = interval_frame[(interval_frame.role.eq(role)) & interval_frame.player_id.eq(row.player_id) &
+                             interval_frame.competition_scope.eq(row.competition_scope)]
+    if details.metric_name.duplicated().any():
+        raise DashboardDataError("Duplicate interval metric key")
+    indexed = details.set_index("metric_name")
     records = []
     for metric, label, favorable, unit in METRICS[role]:
-        pressure = row[f"{metric}_value_pressure"]
-        reference = row[f"{metric}_value_reference"]
-        difference = row[f"{metric}_difference_pressure_minus_reference"]
-        interval = intervals[
-            (intervals.role == role) &
-            (intervals.player_id == row.player_id) &
-            (intervals.competition_scope == row.competition_scope) &
-            (intervals.metric_name == metric)
-        ]
-        records.append({
-            "metric": metric,
-            "label": label,
-            "favorable": favorable,
-            "unit": unit,
-            "pressure": pressure,
-            "reference": reference,
-            "difference": difference,
-            "interval_low": float(interval.iloc[0].interval_low) if len(interval) else float("nan"),
-            "interval_high": float(interval.iloc[0].interval_high) if len(interval) else float("nan"),
-            "interval_status": "synthetic_exploratory_interval" if len(interval) else "unavailable",
-        })
+        d = indexed.loc[metric] if metric in indexed.index else None
+        p, r, diff = (row.get(f"{metric}_value_pressure"), row.get(f"{metric}_value_reference"),
+                      row.get(f"{metric}_difference_pressure_minus_reference"))
+        status = d.interval_status if d is not None else "unavailable"
+        low = d.interval_low if d is not None else float("nan")
+        high = d.interval_high if d is not None else float("nan")
+        records.append({"metric": metric, "label": label, "favorable": favorable, "unit": unit,
+                        "pressure": p, "reference": r, "difference": diff,
+                        "interval_low": low, "interval_high": high, "interval_status": status,
+                        "interpretation": interval_interpretation(status, low, high)})
     return pd.DataFrame(records)
 
 
-def top10_retention(bundle: Bundle) -> pd.DataFrame:
-    rows = []
+def overview(bundle: Bundle) -> dict[str, object]:
+    matches = bundle["matches"]
+    eligible = matches[matches.primary_eligible_events.gt(0)]
+    counts = {}
     for role in ("batting", "bowling"):
-        for variant in bundle["definitions"][bundle["definitions"].role == role]["variant"].unique():
-            rows.append({
-                "role": role,
-                "variant": variant,
-                "definition": "Synthetic threshold comparison",
-                "changed_event_labels": 0.05,
-                "primary_top10_retained": 8,
-                "primary_top10_with_variant_rank": 9,
-                "players_analyzed": 10,
-            })
+        players = bundle[f"{role}_evaluation"]
+        selected = players[players.primary_eligible & players.competition_scope.isin(["IPL", "T20I"])]
+        counts[f"{role}_scopes"] = len(selected)
+        counts[f"{role}_players"] = selected.player_id.nunique()
+    intervals = bundle["intervals"]
+    valid = intervals[intervals.interval_status.eq("exploratory_match_cluster_interval") &
+                      intervals.competition_scope.isin(["IPL", "T20I"])]
+    counts.update(matches=eligible.match_id.nunique(), delivery_events=int(eligible.primary_eligible_events.sum()),
+        ipl_matches=int(eligible[eligible.competition_type.eq("IPL")].match_id.nunique()),
+        t20i_matches=int(eligible[eligible.competition_type.eq("T20I")].match_id.nunique()),
+        batting_pressure_events=int(eligible.batting_pressure_events.sum()),
+        bowling_pressure_events=int(eligible.bowling_pressure_events.sum()),
+        interval_player_scopes=len(valid[["role", "player_id", "competition_scope"]].drop_duplicates()))
+    return counts
+
+
+def top10_retention(bundle: Bundle) -> pd.DataFrame:
+    """Display only tested Phase 5B variants; no alternative ranking is created."""
+    defs = bundle["definitions"]
+    comparison = bundle["alternative_comparison"]
+    rows = []
+    for item in defs[defs.evaluation_status.eq("tested")].itertuples():
+        primary = bundle[f"{item.role}_rankings"][["player_id", "competition_scope"]]
+        subset = comparison[comparison.role.eq(item.role) & comparison.variant.eq(item.variant) & comparison.primary_top10]
+        variant_rows = subset[["player_id", "competition_scope", "variant_rank"]].drop_duplicates()
+        if variant_rows.duplicated(["player_id", "competition_scope"]).any():
+            raise DashboardDataError(f"Conflicting variant ranks: {item.role}/{item.variant}")
+        selected = primary.merge(variant_rows, on=["player_id", "competition_scope"],
+                                 how="left", validate="one_to_one")
+        rows.append({"role": item.role, "variant": item.variant, "definition": item.definition,
+                     "changed_event_labels": item.changed_labels_on_primary_events,
+                     "primary_top10_retained": int(selected.variant_rank.le(10).sum()),
+                     "primary_top10_with_variant_rank": int(selected.variant_rank.notna().sum()),
+                     "players_analyzed": int(comparison[comparison.role.eq(item.role) & comparison.variant.eq(item.variant)].player_id.nunique())})
     return pd.DataFrame(rows)

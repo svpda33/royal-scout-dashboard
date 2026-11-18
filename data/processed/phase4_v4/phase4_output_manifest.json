@@ -1,0 +1,185 @@
+{
+  "pipeline_version": "4.0.1-bootstrap-correction",
+  "created_utc": "2026-11-17T07:32:16.169223+00:00",
+  "input_hashes": {
+    "ball_by_ball.csv": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+    "matches.csv": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+    "competitions.csv": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+    "teams.csv": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+    "playing_eleven.csv": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+    "competition_team_player_mapping.csv": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+    "Round 1 Problem Statement _ SupeRR Selector Season 2.docx.pdf": "8f7965c616d4a64b779e770a6b2c17dde6a2d6ccbf7de12a58b04db792162489",
+    "data/processed/phase2b/delivery_states.csv": "49d4cad4a206ac0b7a754c6a448aad3f890c997fad9fb2b303a1a7d871a074d8",
+    "data/processed/phase2b/batter_opportunities.csv": "66524e3407d682532a81bfb59cf74391c305bd5c9ac3a4d93c50b70c2f0e9d41",
+    "data/processed/phase2b/bowler_opportunities.csv": "70ca710a6e6c4116611cc7f0e4d74806dc6cd587ca274e567d605e818590fec2",
+    "data/processed/phase2b/player_dimension.csv": "83ba84bff10c37871be8ad215a5407639da667ddc6fa9c39e0a296acc70f85e8",
+    "data/processed/phase2b/match_summary.csv": "9f86693cb3a8331b2ddc39647c6a696644e36a133827681ac09b2c85247ce952",
+    "data/processed/phase2b/innings_summary.csv": "732973ea464c56f2d8dcd28e49a9c1e93786eb71a2eadb41df8dda8c919ad31a",
+    "data/processed/phase2b/excluded_matches.csv": "a7ce57cea5990f9dca6c120470f0bade50c3bc1614019b892352a0947fdd07ba",
+    "data/processed/phase2b/data_quality_flags.csv": "345fe82261386a4ad3ae0d9e128f7cd3e55fca39cb28128c669f621f15ed79c4",
+    "data/processed/phase2b/source_validation.csv": "8effac12e5f38a0937c0913e9442e076c94fca775cc7fc1bedfd487306371bbd",
+    "data/processed/phase2b/player_mapping_quality.csv": "59e2b71aaee280daee99253d448b0b76cf784b24160b1e76e29a0f4230ee0e24",
+    "data/processed/phase3/batting_pressure_coverage.csv": "9c7353700fce5c5bf1c8d5c0c8faf4f7d71223b8db3c3987645983747992129a",
+    "data/processed/phase3/bowling_pressure_coverage.csv": "68bc2f877eefa68250f4d7f478920a7cfc640fb02a15064a3171d8e0d30c1523",
+    "data/processed/phase3/pressure_classification_config.json": "4c01a33fc9a272af4555d62f8f6c4da9a06fb1fb445ae4aa7a3f362082d43179",
+    "data/processed/phase3/pressure_classified_deliveries.csv": "0dcfc5d902fcc18becf63b55666110cc62d673c8377dfc68cc7c3088e025d531",
+    "data/processed/phase3/pressure_competition_coverage.csv": "a40937a287df1c9492119983c632906b49c4a4783243b3014bbf0a03eca53290",
+    "data/processed/phase3/pressure_exclusions.csv": "e005f2a5465c05b8c4582f9c0acf2c5f2a97bb5f551e1071b81ab1450a87706b",
+    "data/processed/phase3/pressure_match_coverage.csv": "b4746486d6427fb6fb8fdeaa618c4f57f86b852f7915357ccd92ed78b93eb989",
+    "data/processed/phase3/pressure_threshold_sensitivity.csv": "d6c33958ac2509a933bd10ff8bea0b8772c96b40a58d66c88a2f4677cda33e9e"
+  },
+  "phase4_v3_sha256_before": {
+    "data/processed/phase4_v3/baseline_eligibility_summary.csv": "24081437d3154880b2c1ef8a074f1c53ad7edf5e2e52422a3e3b84523c92747f",
+    "data/processed/phase4_v3/batter_player_comparisons.csv": "e295dbf169cc2f73add44d471b1735579ad1448259c72a29bd1109782f341ae7",
+    "data/processed/phase4_v3/batter_pressure_performance.csv": "360307121a4c8cc5cda0674a02f0a4e1f2472cb82a81f0d4063bb934b20c53cd",
+    "data/processed/phase4_v3/batter_reference_performance.csv": "1722ccbc426354341d50febd1e14b7d37582fd7188ecdfbb4eb6101b4125a648",
+    "data/processed/phase4_v3/bowler_player_comparisons.csv": "6a86497aec15138540e55ff4a37dc45b918f7110fb8c343b44937103eb376c3b",
+    "data/processed/phase4_v3/bowler_pressure_performance.csv": "2b2daeea0df6ac0eb31d81efcb9e930af7b9863b8e334748167527c507b8702d",
+    "data/processed/phase4_v3/bowler_reference_performance.csv": "d392db9179620e6ef484bd0265b662160afac66af631a835f28c86689f159811",
+    "data/processed/phase4_v3/competition_context_metrics.csv": "4f1193d9c4a6c8ee50938b8e4613c986cc85c1134780eeec83d77edb3534fb20",
+    "data/processed/phase4_v3/excluded_opportunities.csv": "f9c687a99bc0574c89a75f5d8a55d657f01617b48f2c6497df11c6a53096e048",
+    "data/processed/phase4_v3/metric_quality_summary.csv": "069fd738fe2d35b7372ac23cb0d920b5fdc965fa97963701b8a255f965cbc0a9",
+    "data/processed/phase4_v3/phase4_output_manifest.json": "a35ae893f58ae4cf67625f33c40e01d5e075896345c3565ae9b5914c8907dd6f",
+    "data/processed/phase4_v3/phase_wicket_context_metrics.csv": "dfbdf57907002ef9a31b320e1a72cab69a9ebd7f44eb8654eef3b4fe43d80ec1",
+    "data/processed/phase4_v3/player_reliability.csv": "917ebb63db10afa42b1f64a250523dc6852d0676401b38f151c56f7e6e150253",
+    "data/processed/phase4_v3/sample_size_distribution.csv": "f056340d3f3b3722b38b240a029276939dd9e79da22a3ea893009c89b4390a99",
+    "data/processed/phase4_v3/season_context_metrics.csv": "923ceaa7d5cd0e884075cfa9e3a6a6d0fe89a05a3e4e0e0539127c457bb76c8a"
+  },
+  "phase4_v3_sha256_after": {
+    "data/processed/phase4_v3/baseline_eligibility_summary.csv": "24081437d3154880b2c1ef8a074f1c53ad7edf5e2e52422a3e3b84523c92747f",
+    "data/processed/phase4_v3/batter_player_comparisons.csv": "e295dbf169cc2f73add44d471b1735579ad1448259c72a29bd1109782f341ae7",
+    "data/processed/phase4_v3/batter_pressure_performance.csv": "360307121a4c8cc5cda0674a02f0a4e1f2472cb82a81f0d4063bb934b20c53cd",
+    "data/processed/phase4_v3/batter_reference_performance.csv": "1722ccbc426354341d50febd1e14b7d37582fd7188ecdfbb4eb6101b4125a648",
+    "data/processed/phase4_v3/bowler_player_comparisons.csv": "6a86497aec15138540e55ff4a37dc45b918f7110fb8c343b44937103eb376c3b",
+    "data/processed/phase4_v3/bowler_pressure_performance.csv": "2b2daeea0df6ac0eb31d81efcb9e930af7b9863b8e334748167527c507b8702d",
+    "data/processed/phase4_v3/bowler_reference_performance.csv": "d392db9179620e6ef484bd0265b662160afac66af631a835f28c86689f159811",
+    "data/processed/phase4_v3/competition_context_metrics.csv": "4f1193d9c4a6c8ee50938b8e4613c986cc85c1134780eeec83d77edb3534fb20",
+    "data/processed/phase4_v3/excluded_opportunities.csv": "f9c687a99bc0574c89a75f5d8a55d657f01617b48f2c6497df11c6a53096e048",
+    "data/processed/phase4_v3/metric_quality_summary.csv": "069fd738fe2d35b7372ac23cb0d920b5fdc965fa97963701b8a255f965cbc0a9",
+    "data/processed/phase4_v3/phase4_output_manifest.json": "a35ae893f58ae4cf67625f33c40e01d5e075896345c3565ae9b5914c8907dd6f",
+    "data/processed/phase4_v3/phase_wicket_context_metrics.csv": "dfbdf57907002ef9a31b320e1a72cab69a9ebd7f44eb8654eef3b4fe43d80ec1",
+    "data/processed/phase4_v3/player_reliability.csv": "917ebb63db10afa42b1f64a250523dc6852d0676401b38f151c56f7e6e150253",
+    "data/processed/phase4_v3/sample_size_distribution.csv": "f056340d3f3b3722b38b240a029276939dd9e79da22a3ea893009c89b4390a99",
+    "data/processed/phase4_v3/season_context_metrics.csv": "923ceaa7d5cd0e884075cfa9e3a6a6d0fe89a05a3e4e0e0539127c457bb76c8a"
+  },
+  "input_hashes_unchanged": true,
+  "point_estimates_match_v3": true,
+  "validation": {
+    "phase3_events": 194014,
+    "primary_events_per_role": 189555,
+    "excluded_events_per_role": 4459
+  },
+  "outputs": [
+    {
+      "filename": "batter_pressure_performance.csv",
+      "rows": 1519,
+      "columns": 35,
+      "bytes": 370437,
+      "sha256": "360307121a4c8cc5cda0674a02f0a4e1f2472cb82a81f0d4063bb934b20c53cd"
+    },
+    {
+      "filename": "batter_reference_performance.csv",
+      "rows": 1183,
+      "columns": 35,
+      "bytes": 305540,
+      "sha256": "1722ccbc426354341d50febd1e14b7d37582fd7188ecdfbb4eb6101b4125a648"
+    },
+    {
+      "filename": "batter_player_comparisons.csv",
+      "rows": 1814,
+      "columns": 77,
+      "bytes": 814403,
+      "sha256": "e295dbf169cc2f73add44d471b1735579ad1448259c72a29bd1109782f341ae7"
+    },
+    {
+      "filename": "bowler_pressure_performance.csv",
+      "rows": 881,
+      "columns": 31,
+      "bytes": 200795,
+      "sha256": "2b2daeea0df6ac0eb31d81efcb9e930af7b9863b8e334748167527c507b8702d"
+    },
+    {
+      "filename": "bowler_reference_performance.csv",
+      "rows": 1309,
+      "columns": 31,
+      "bytes": 313483,
+      "sha256": "d392db9179620e6ef484bd0265b662160afac66af631a835f28c86689f159811"
+    },
+    {
+      "filename": "bowler_player_comparisons.csv",
+      "rows": 1321,
+      "columns": 67,
+      "bytes": 593706,
+      "sha256": "6a86497aec15138540e55ff4a37dc45b918f7110fb8c343b44937103eb376c3b"
+    },
+    {
+      "filename": "player_reliability.csv",
+      "rows": 3135,
+      "columns": 52,
+      "bytes": 786542,
+      "sha256": "01baa7ba56a180258d349ab6fbaa5f2b5d68bbfe14cdb92fca8b6f324bc48f74"
+    },
+    {
+      "filename": "competition_context_metrics.csv",
+      "rows": 8,
+      "columns": 34,
+      "bytes": 2298,
+      "sha256": "4f1193d9c4a6c8ee50938b8e4613c986cc85c1134780eeec83d77edb3534fb20"
+    },
+    {
+      "filename": "season_context_metrics.csv",
+      "rows": 52,
+      "columns": 35,
+      "bytes": 8611,
+      "sha256": "923ceaa7d5cd0e884075cfa9e3a6a6d0fe89a05a3e4e0e0539127c457bb76c8a"
+    },
+    {
+      "filename": "phase_wicket_context_metrics.csv",
+      "rows": 312,
+      "columns": 37,
+      "bytes": 49771,
+      "sha256": "dfbdf57907002ef9a31b320e1a72cab69a9ebd7f44eb8654eef3b4fe43d80ec1"
+    },
+    {
+      "filename": "baseline_eligibility_summary.csv",
+      "rows": 18,
+      "columns": 4,
+      "bytes": 894,
+      "sha256": "24081437d3154880b2c1ef8a074f1c53ad7edf5e2e52422a3e3b84523c92747f"
+    },
+    {
+      "filename": "sample_size_distribution.csv",
+      "rows": 72,
+      "columns": 5,
+      "bytes": 2245,
+      "sha256": "f056340d3f3b3722b38b240a029276939dd9e79da22a3ea893009c89b4390a99"
+    },
+    {
+      "filename": "metric_quality_summary.csv",
+      "rows": 8,
+      "columns": 11,
+      "bytes": 627,
+      "sha256": "069fd738fe2d35b7372ac23cb0d920b5fdc965fa97963701b8a255f965cbc0a9"
+    },
+    {
+      "filename": "excluded_opportunities.csv",
+      "rows": 8918,
+      "columns": 9,
+      "bytes": 986674,
+      "sha256": "f9c687a99bc0574c89a75f5d8a55d657f01617b48f2c6497df11c6a53096e048"
+    },
+    {
+      "filename": "player_interval_details.csv",
+      "rows": 8084,
+      "columns": 22,
+      "bytes": 1756680,
+      "sha256": "4d78b08da8c4b2371cb78a0bc76df3f7669dff367b84339214e29bc6669cbe13"
+    }
+  ],
+  "interval_status_counts": {
+    "insufficient_match_clusters": 5741,
+    "exploratory_match_cluster_interval": 2343
+  },
+  "bootstrap_iterations": 500,
+  "bootstrap_seed": 2026
+}

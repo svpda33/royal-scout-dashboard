@@ -1,0 +1,12 @@
+role,variant,definition,evaluation_status,pressure_events_all,pressure_events_ipl,pressure_events_t20i,jaccard_vs_primary,changed_labels_on_primary_events,reason
+batting,opening_threshold_2,Opening overs: at least 2 prior wickets,tested,42663,16936,25727,0.807678784896,8205,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+batting,opening_threshold_4,Opening overs: at least 4 prior wickets,tested,31497,12443,19054,0.914069301759,2961,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+batting,middle_threshold_4,Middle overs: at least 4 prior wickets,tested,48079,19399,28680,0.716695438757,13621,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+batting,middle_threshold_6,Middle overs: at least 6 prior wickets,tested,26428,10595,15833,0.766962679204,8030,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+batting,closing_threshold_5,Closing overs: at least 5 prior wickets,tested,42954,17604,25350,0.802207012153,8496,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+batting,closing_threshold_7,Closing overs: at least 7 prior wickets,tested,27582,10569,17013,0.800452725057,6876,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+batting,add_knockout_stakes,Primary rule OR knockout context,not_tested,39050,17364,21686,0.882407170294,4592,Excluded from cross-competition stability verdict: only 5 T20I knockout matches versus 19 IPL knockout matches
+bowling,closing_threshold_3,Closing overs: at most 3 prior wickets,tested,8995,5005,3990,0.531336759407,7934,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+bowling,closing_threshold_5,Closing overs: at most 5 prior wickets,tested,25425,12898,12527,0.665840707965,8496,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+bowling,add_middle_wickets_1,Primary closing rule plus middle overs at most 1 prior wicket,tested,37456,19658,17798,0.451970311833,20527,Outcome-free Phase 3 local rule perturbation; primary exclusions retained
+bowling,add_knockout_stakes,Primary rule OR knockout context,not_tested,22084,13055,9029,0.766573084586,5155,Excluded from cross-competition stability verdict: only 5 T20I knockout matches versus 19 IPL knockout matches

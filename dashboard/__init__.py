@@ -1,1 +1,1 @@
-"""Synthetic public-demo dashboard package."""
+"""Read-only presentation layer for validated Royal Scout outputs."""

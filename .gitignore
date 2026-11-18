@@ -1,6 +1,8 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .venv/
 venv/
 .env
@@ -12,10 +14,8 @@ venv/
 .DS_Store
 Thumbs.db
 
-# No competition datasets or generated research output belong in this public demo.
-*.csv
-*.tsv
-*.parquet
-*.xlsx
+# The validated CSVs in this repository are intentionally published.
+# Keep local databases, exports, and credentials out of future commits.
 *.sqlite
 *.db
+local_artifacts/
