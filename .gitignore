@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.streamlit/secrets.toml
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# No competition datasets or generated research output belong in this public demo.
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.sqlite
+*.db
